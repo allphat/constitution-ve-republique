@@ -1,214 +1,38 @@
-# Constitution du 4 octobre 1958 — Version du 2003-03-28
+# Constitution du 4 octobre 1958 — Version du 2000-10-02
 
-**Loi constitutionnelle n° 2003-277 du 28 mars 2003 - Mandat d'arrêt européen**
-
-Imprimer
-Copier le texte
-Constitution du 4 octobre 1958
-Dernière mise à jour des données de ce texte : 10 mars 2024
-Accéder à la version initiale
-Recherche simple dans le code
-Rechercher dans le texte...
-Valider la recherche
-Réinitialiser
-ChronoLégi
-Version à la date
-d'aujourd'hui
-ou du (JJ/MM/AAAA)
-July 2015
-lu
-ma
-me
-je
-ve
-sa
-di
-Javascript must be enabled
-Aujourd'hui
-Close
-Choisir la date
-Go to previous month
-Go to next month
-Go to previous year
-Go to next year
-Close the date picker
-valider la recherche à la date
-Voir les modifications dans le temps
-Version en vigueur au 28 mars 2003
-Masquer les articles et les sections abrogés
-Naviguer dans le sommaire
-Titre premier : De la souveraineté (Articles 2 à 4)
-Article 2
-Article 3
-Article 4
-Titre II : Le Président de la République (Articles 5 à 19)
-Article 5
-Article 6
-Article 7
-Article 8
-Article 9
-Article 10
-Article 11
-Article 12
-Article 13
-Article 14
-Article 15
-Article 16
-Article 17
-Article 18
-Article 19
-Titre III : Le Gouvernement (Articles 20 à 23)
-Article 20
-Article 21
-Article 22
-Article 23
-Titre IV : Le Parlement (Articles 24 à 33)
-Article 24
-Article 25
-Article 26
-Article 27
-Article 28
-Article 29
-Article 30
-Article 31
-Article 32
-Article 33
-Titre V : Des rapports entre le Parlement et le Gouvernement (Articles 34 à 51)
-Article 34
-Article 35
-Article 36
-Article 37
-Article 38
-Article 39
-Article 40
-Article 41
-Article 42
-Article 43
-Article 44
-Article 45
-Article 46
-Article 47
-Article 47-1
-Article 48
-Article 49
-Article 50
-Article 51
-Titre VI : Des traités et accords internationaux (Articles 52 à 55)
-Article 52
-Article 53
-Article 53-1
-Article 53-2
-Article 54
-Article 55
-Titre VII : Le Conseil constitutionnel (Articles 56 à 63)
-Article 56
-Article 57
-Article 58
-Article 59
-Article 60
-Article 61
-Article 62
-Article 63
-Titre VIII : De l'autorité judiciaire (Articles 64 à 66)
-Article 64
-Article 65
-Article 66
-Titre IX : La Haute Cour de Justice. (Articles 67 à 68)
-Article 67
-Article 68
-Titre X : De la responsabilité pénale des membres du Gouvernement (Articles 68-1 à 68-3)
-Article 68-1
-Article 68-2
-Article 68-3
-Titre XI : Le Conseil économique et social. (Articles 69 à 71)
-Article 69
-Article 70
-Article 71
-Titre XII : Des collectivités territoriales (Articles 72 à 75)
-Article 72
-Article 73
-Article 74
-Article 75
-Article 76
-Titre XIII : De la Communauté. (Articles 76 à 77)
-(abrogé)
-Article 76
-Article 77
-Article 77
-Article 78
-Article 79
-Article 80
-Article 81
-Article 82
-Article 83
-Article 84
-Article 85
-Article 86
-Article 87
-Titre XIII : Dispositions transitoires relatives à la Nouvelle-Calédonie (Articles 76 à 77)
-Article 76
-Article 77
-Article 77
-Article 78
-Article 79
-Article 80
-Article 81
-Article 82
-Article 83
-Article 84
-Article 85
-Article 86
-Article 87
-Titre XIV : Des accords d'association. (Article 88)
-Article 88
-Titre XV : Des Communautés européennes et de l'Union européenne (Articles 88-1 à 88-4)
-Article 88-1
-Article 88-2
-Article 88-3
-Article 88-4
-Titre XVI : De la révision (Article 89)
-Article 89
-Titre XVII : Dispositions transitoires.
-(abrogé)
-Article 90
-Article 91
-Article 92
-Article 93
-Le Gouvernement de la République, conformément à la loi constitutionnelle du 3 juin 1958, a proposé, Le Peuple français a adopté, Le Président de la République promulgue la loi constitutionnelle dont la teneur suit :
 Article PREAMBULE
 Le Peuple français proclame solennellement son attachement aux Droits de l'Homme et aux principes de la souveraineté nationale tels qu'ils sont définis par la Déclaration de 1789, confirmée et complétée par le préambule de la Constitution de 1946.
 En vertu de ces principes et de celui de la libre détermination des peuples, la République offre aux territoires d'outre-mer qui manifestent la volonté d'y adhérer des institutions nouvelles fondées sur l'idéal commun de liberté, d'égalité et de fraternité et conçues en vue de leur évolution démocratique.
+
 Article 1
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 8
 La France est une République indivisible, laïque, démocratique et sociale. Elle assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion. Elle respecte toutes les croyances.
-Titre premier : De la souveraineté (Articles 2 à 4)
+
 Article 2
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 8
 La langue de la République est le français.
 L'emblème national est le drapeau tricolore, bleu, blanc, rouge.
 L'hymne national est la " Marseillaise ".
 La devise de la République est " Liberté, Egalité, Fraternité ".
 Son principe est : gouvernement du peuple, par le peuple et pour le peuple.
+
 Article 3
-Modifié par Loi constitutionnelle n°99-569 du 8 juillet 1999 - art. 1
 La souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum.
 Aucune section du peuple ni aucun individu ne peut s'en attribuer l'exercice.
 Le suffrage peut être direct ou indirect dans les conditions prévues par la Constitution. Il est toujours universel, égal et secret.
 Sont électeurs, dans les conditions déterminées par la loi, tous les nationaux français majeurs des deux sexes, jouissant de leurs droits civils et politiques.
 La loi favorise l'égal accès des femmes et des hommes aux mandats électoraux et fonctions électives.
+
 Article 4
-Modifié par Loi constitutionnelle n°99-569 du 8 juillet 1999 - art. 2
 Les partis et groupements politiques concourent à l'expression du suffrage. Ils se forment et exercent leur activité librement. Ils doivent respecter les principes de la souveraineté nationale et de la démocratie.
 Ils contribuent à la mise en oeuvre du principe énoncé au dernier alinéa de l'article 3 dans les conditions déterminées par la loi.
-Titre II : Le Président de la République (Articles 5 à 19)
+
 Article 5
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 9
 Le Président de la République veille au respect de la Constitution. Il assure, par son arbitrage, le fonctionnement régulier des pouvoirs publics ainsi que la continuité de l'Etat.
 Il est le garant de l'indépendance nationale, de l'intégrité du territoire et du respect des traités.
+
 Article 6
-Modifié par Loi constitutionnelle n°2000-964 du 2 octobre 2000 - art. unique
-Le Président de la République est élu pour cinq ans au suffrage universel direct.
+Le Président de la République est élu pour sept ans au suffrage universel direct.
 Les modalités d'application du présent article sont fixées par une loi organique.
+
 Article 7
 Le Président de la République est élu à la majorité absolue des suffrages exprimés. Si celle-ci n'est pas obtenue au premier tour du scrutin, il est procédé, le deuxième dimanche suivant, à un second tour. Seuls peuvent s'y présenter les deux candidats qui, le cas échéant aprés retrait de candidats plus favorisés, se trouvent avoir recueilli le plus grand nombre de suffrages au premier tour.
 Le scrutin est ouvert sur convocation du Gouvernement.
@@ -221,55 +45,65 @@ En cas de décès ou d'empêchement de l'un des deux candidats les plus favoris�
 Dans tous les cas, le Conseil constitutionnel est saisi dans les conditions fixées au deuxième alinéa de l'article 61 ci-dessous ou dans celles déterminées pour la présentation d'un candidat par la loi organique prévue à l'article 6 ci-dessus.
 Le Conseil constitutionnel peut proroger les délais prévus aux troisième et cinquième alinéas sans que le scrutin puisse avoir lieu plus de trente-cinq jours après la date de la décision du Conseil constitutionnel. Si l'application des dispositions du présent alinéa a eu pour effet de reporter l'élection à une date postérieure à l'expiration des pouvoirs du Président en exercice, celui-ci demeure en fonctions jusqu'à la proclamation de son successeur.
 Il ne peut être fait application ni des articles 49 et 50 ni de l'article 89 de la Constitution durant la vacance de la Présidence de la République ou durant la période qui s'écoule entre la déclaration du caractère définitif de l'empêchement du Président de la République et l'élection de son successeur.
+
 Article 8
 Le Président de la République nomme le Premier ministre. Il met fin à ses fonctions sur la présentation par celui-ci de la démission du Gouvernement.
 Sur la proposition du Premier ministre, il nomme les autres membres du Gouvernement et met fin à leurs fonctions.
+
 Article 9
 Le Président de la République préside le conseil des ministres.
+
 Article 10
 Le Président de la République promulgue les lois dans les quinze jours qui suivent la transmission au Gouvernement de la loi définitivement adoptée.
 Il peut, avant l'expiration de ce délai, demander au Parlement une nouvelle délibération de la loi ou de certains de ses articles. Cette nouvelle délibération ne peut être refusée.
+
 Article 11
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 1
 Le Président de la République, sur proposition du Gouvernement pendant la durée des sessions ou sur proposition conjointe des deux assemblées, publiées au Journal officiel, peut soumettre au référendum tout projet de loi portant sur l'organisation des pouvoirs publics, sur des réformes relatives à la politique économique ou sociale de la nation et aux services publics qui y concourent, ou tendant à autoriser la ratification d'un traité qui, sans être contraire à la Constitution, aurait des incidences sur le fonctionnement des institutions.
 Lorsque le référendum est organisé sur proposition du Gouvernement, celui-ci fait, devant chaque assemblée, une déclaration qui est suivie d'un débat.
 Lorsque le référendum a conclu à l'adoption du projet de loi, le Président de la République promulgue la loi dans les quinze jours qui suivent la proclamation des résultats de la consultation.
+
 Article 12
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 3
 Le Président de la République peut, après consultation du Premier ministre et des Présidents des Assemblées, prononcer la dissolution de l'Assemblée nationale.
 Les élections générales ont lieu vingt jours au moins et quarante jours au plus après la dissolution.
 L'Assemblée nationale se réunit de plein droit le deuxième jeudi qui suit son élection. Si cette réunion a lieu en dehors de la période prévue pour la session ordinaire, une session est ouverte de droit pour une durée de quinze jours.
 Il ne peut être procédé à une nouvelle dissolution dans l'année qui suit ces élections.
+
 Article 13
 Le Président de la République signe les ordonnances et les décrets délibérés en Conseil des ministres.
 Il nomme aux emplois civils et militaires de l'Etat.
 Les conseillers d'Etat, le grand chancelier de la Légion d'honneur, les ambassadeurs et envoyés extraordinaires, les conseillers maîtres à la Cour des comptes, les préfets, les représentants du Gouvernement dans les territoires d'outre-mer, les officiers généraux, les recteurs des académies, les directeurs des administrations centrales, sont nommés en Conseil des ministres.
 Une loi organique détermine les autres emplois auxquels il est pourvu en conseil des ministres ainsi que les conditions dans lesquelles le pouvoir de nomination du Président de la République peut être par lui délégué pour être exercé en son nom.
+
 Article 14
 Le Président de la République accrédite les ambassadeurs et les envoyés extraordinaires auprès des puissances étrangères ; les ambassadeurs et les envoyés extraordinaires étrangers sont accrédités auprès de lui.
+
 Article 15
 Le Président de la République est le chef des armées. Il préside les conseils et comités supérieurs de la Défense nationale.
+
 Article 16
 Lorsque les institutions de la République, l'indépendance de la Nation, l'intégrité de son territoire ou l'exécution de ses engagements internationaux sont menacés (1) d'une manière grave et immédiate et que le fonctionnement régulier des pouvoirs publics constitutionnels est interrompu, le Président de la République prend les mesures exigées par ces circonstances, après consultation officielle du Premier ministre, des Présidents des Assemblées ainsi que du Conseil constitutionnel.
 Il en informe la Nation par un message.
 Ces mesures doivent être inspirées par la volonté d'assurer aux pouvoirs publics constitutionnels, dans les moindres délais, les moyens d'accomplir leur mission. Le Conseil constitutionnel est consulté à leur sujet.
 Le Parlement se réunit de plein droit.
 L'Assemblée nationale ne peut être dissoute pendant l'exercice des pouvoirs exceptionnels.
-(1) : Cet article fut originellement publié avec une faute d'orthographe. Le terme " menacés " devrait en effet s'écrire " menacées ".
+
 Article 17
 Le Président de la République a le droit de faire grâce.
+
 Article 18
 Le Président de la République communique avec les deux Assemblées du Parlement par des messages qu'il fait lire et qui ne donnent lieu à aucun débat.
 Hors session, le Parlement est réuni spécialement à cet effet.
+
 Article 19
 Les actes du Président de la République autres que ceux prévus aux articles 8 (1er alinéa), 11, 12, 16, 18, 54, 56 et 61 sont contresignés par le Premier ministre et, le cas échéant, par les ministres responsables.
-Titre III : Le Gouvernement (Articles 20 à 23)
+
 Article 20
 Le Gouvernement détermine et conduit la politique de la Nation.
 Il dispose de l'administration et de la force armée.
 Il est responsable devant le Parlement dans les conditions et suivant les procédures prévues aux
 articles 49 et 50
 .
+
 Article 21
 Le Premier ministre dirige l'action du Gouvernement. Il est responsable de la Défense nationale. Il assure l'exécution des lois. Sous réserve des dispositions de
 l'article 13
@@ -279,55 +113,63 @@ Il supplée, le cas échéant, le Président de la République dans la présiden
 l'article 15
 .
 Il peut, à titre exceptionnel, le suppléer pour la présidence d'un Conseil des ministres en vertu d'une délégation expresse et pour un ordre du jour déterminé.
+
 Article 22
 Les actes du Premier ministre sont contresignés, le cas échéant, par les ministres chargés de leur exécution.
+
 Article 23
 Les fonctions de membre du Gouvernement sont incompatibles avec l'exercice de tout mandat parlementaire, de toute fonction de représentation professionnelle à caractère national et de tout emploi public ou de toute activité professionnelle.
 Une loi organique fixe les conditions dans lesquelles il est pourvu au remplacement des titulaires de tels mandats, fonctions ou emplois.
 Le remplacement des membres du Parlement a lieu conformément aux dispositions de
 l'article 25
 .
-Titre IV : Le Parlement (Articles 24 à 33)
+
 Article 24
 Le Parlement comprend l'Assemblée nationale et le Sénat.
 Les députés à l'Assemblée nationale sont élus au suffrage direct.
 Le Sénat est élu au suffrage indirect. Il assure la représentation des collectivités territoriales de la République. Les Français établis hors de France sont représentés au Sénat.
+
 Article 25
 Une loi organique fixe la durée des pouvoirs de chaque assemblée, le nombre de ses membres, leur indemnité, les conditions d'éligibilité, le régime des inéligibilités et des incompatibilités.
 Elle fixe également les conditions dans lesquelles sont élues les personnes appelées à assurer, en cas de vacance du siège, le remplacement des députés ou des sénateurs jusqu'au renouvellement général ou partiel de l'assemblée à laquelle ils appartenaient.
+
 Article 26
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 7
 Aucun membre du Parlement ne peut être poursuivi, recherché, arrêté, détenu ou jugé à l'occasion des opinions ou votes émis par lui dans l'exercice de ses fonctions.
 Aucun membre du Parlement ne peut faire l'objet, en matière criminelle ou correctionnelle, d'une arrestation ou de toute autre mesure privative ou restrictive de liberté qu'avec l'autorisation du Bureau de l'assemblée dont il fait partie. Cette autorisation n'est pas requise en cas de crime ou délit flagrant ou de condamnation définitive.
 La détention, les mesures privatives ou restrictives de liberté ou la poursuite d'un membre du Parlement sont suspendues pour la durée de la session si l'assemblée dont il fait partie le requiert.
 L'assemblée intéressée est réunie de plein droit pour des séances supplémentaires pour permettre, le cas échéant, l'application de l'alinéa ci-dessus.
+
 Article 27
 Tout mandat impératif est nul.
 Le droit de vote des membres du Parlement est personnel.
 La loi organique peut autoriser exceptionnellement la délégation de vote. Dans ce cas, nul ne peut recevoir délégation de plus d'un mandat.
+
 Article 28
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 2
 Le Parlement se réunit de plein droit en une session ordinaire qui commence le premier jour ouvrable d'octobre et prend fin le dernier jour ouvrable de juin.
 Le nombre de jours de séance que chaque assemblée peut tenir au cours de la session ordinaire ne peut excéder cent vingt. Les semaines de séance sont fixées par chaque assemblée.
 Le Premier ministre, après consultation du président de l'assemblée concernée, ou la majorité des membres de chaque assemblée peut décider la tenue de jours supplémentaires de séance.
 Les jours et les horaires des séances sont déterminés par le règlement de chaque assemblée.
+
 Article 29
 Le Parlement est réuni en session extraordinaire à la demande du Premier ministre ou de la majorité des membres composant l'Assemblée nationale, sur un ordre du jour déterminé.
 Lorsque la session extraordinaire est tenue à la demande des membres de l'Assemblée nationale, le décret de clôture intervient dès que le Parlement a épuisé l'ordre du jour pour lequel il a été convoqué et au plus tard douze jours à compter de sa réunion.
 Le Premier ministre peut seul demander une nouvelle session avant l'expiration du mois qui suit le décret de clôture.
+
 Article 30
 Hors les cas dans lesquels le Parlement se réunit de plein droit, les sessions extraordinaires sont ouvertes et closes par décret du Président de la République.
+
 Article 31
 Les membres du Gouvernement ont accès aux deux Assemblées. Ils sont entendus quand ils le demandent.
 Ils peuvent se faire assister par des commissaires du Gouvernement.
+
 Article 32
 Le Président de l'Assemblée nationale est élu pour la durée de la législature. Le Président du Sénat est élu après chaque renouvellement partiel.
+
 Article 33
 Les séances des deux Assemblées sont publiques. Le compte-rendu intégral des débats est publié au Journal officiel.
 Chaque Assemblée peut siéger en comité secret à la demande du Premier ministre ou d'un dixième de ses membres.
-Titre V : Des rapports entre le Parlement et le Gouvernement (Articles 34 à 51)
+
 Article 34
-Modifié par Loi constitutionnelle n°96-138 du 22 février 1996 - art. 1
 La loi est votée par le Parlement.
 La loi fixe les règles concernant :
 - les droits civiques et les garanties fondamentales accordées aux citoyens pour l'exercice des libertés publiques ; les sujétions imposées par la Défense nationale aux citoyens en leur personne et en leurs biens ;
@@ -349,47 +191,59 @@ Les lois de finances déterminent les ressources et les charges de l'Etat dans l
 Les lois de financement de la sécurité sociale déterminent les conditions générales de son équilibre financier et, compte tenu de leurs prévisions de recettes, fixent ses objectifs de dépenses, dans les conditions et sous les réserves prévues par une loi organique.
 Des lois de programme déterminent les objectifs de l'action économique et sociale de l'Etat.
 Les dispositions du présent article pourront être précisées et complétées par une loi organique.
+
 Article 35
 La déclaration de guerre est autorisée par le Parlement.
+
 Article 36
 L'état de siège est décrété en Conseil des ministres. Sa prorogation au-delà de douze jours ne peut être autorisée que par le Parlement.
+
 Article 37
 Les matières autres que celles qui sont du domaine de la loi ont un caractère réglementaire.
 Les textes de forme législative intervenus en ces matières peuvent être modifiés par décrets pris après avis du Conseil d'Etat. Ceux de  ces textes qui interviendraient après l'entrée en vigueur de la présente Constitution ne pourront être modifiés par décret que si le Conseil constitutionnel a déclaré qu'ils ont un caractère réglementaire en vertu de l'alinéa précédent.
+
 Article 38
 Le Gouvernement peut, pour l'exécution de son programme, demander au Parlement l'autorisation de prendre par ordonnances, pendant un délai limité, des mesures qui sont normalement du domaine de la loi.
 Les ordonnances sont prises en Conseil des ministres après avis du Conseil d'Etat. Elles entrent en vigueur dès leur publication mais deviennent caduques si le projet de loi de ratification n'est pas déposé devant le Parlement avant la date fixée par la loi d'habilitation.
 A l'expiration du délai mentionné au premier alinéa du présent article, les ordonnances ne peuvent plus être modifiées que par la loi dans les matières qui sont du domaine législatif.
+
 Article 39
-Modifié par Loi constitutionnelle n°96-138 du 22 février 1996 - art. 2
 L'initiative des lois appartient concurremment au Premier ministre et aux membres du Parlement.
 Les projets de loi sont délibérés en conseil des ministres après avis du Conseil d'Etat et déposés sur le bureau de l'une des deux Assemblées. Les projets de loi de finances et de loi de financement de la sécurité sociale sont soumis en premier lieu à l'Assemblée nationale.
+
 Article 40
 Les propositions et amendements formulés par les membres du Parlement ne sont pas recevables lorsque leur adoption aurait pour conséquence soit une diminution des ressources publiques, soit la création ou l'aggravation d'une charge publique.
+
 Article 41
 S'il apparaît au cours de la procédure législative qu'une proposition ou un amendement n'est pas du domaine de la loi ou est contraire à une délégation accordée en vertu de l'article 38, le Gouvernement peut opposer l'irrecevabilité.
 En cas de désaccord entre le Gouvernement et le Président de l'Assemblée intéressée, le Conseil constitutionnel, à la demande de l'un ou de l'autre, statue dans un délai de huit jours.
+
 Article 42
 La discussion des projets de loi porte, devant la première Assemblée saisie, sur le texte présenté par le Gouvernement.
 Une Assemblée saisie d'un texte voté par l'autre Assemblée délibère sur le texte qui lui est transmis.
+
 Article 43
 Les projets et propositions de loi sont, à la demande du Gouvernement ou de l'Assemblée qui en est saisie, envoyés pour examen à des commissions spécialement désignées à cet effet.
 Les projets et propositions pour lesquels une telle demande n'a pas été faite sont envoyés à l'une des commissions permanentes dont le nombre est limité à six dans chaque Assemblée.
+
 Article 44
 Les membres du Parlement et le Gouvernement ont le droit d'amendement.
 Après l'ouverture du débat, le Gouvernement peut s'opposer à l'examen de tout amendement qui n'a pas été antérieurement soumis à la commission.
 Si le Gouvernement le demande, l'Assemblée saisie se prononce par un seul vote sur tout ou partie du texte en discussion en ne retenant que les amendements proposés ou acceptés par le Gouvernement.
+
 Article 45
 Tout projet ou proposition de loi est examiné successivement dans les deux Assemblées du Parlement en vue de l'adoption d'un texte identique.
 Lorsque, par suite d'un désaccord entre les deux Assemblées, un projet ou une proposition de loi n'a pu être adopté après deux lectures par chaque Assemblée ou, si le Gouvernement a déclaré l'urgence, après une seule lecture par chacune d'entre elles, le Premier ministre a la faculté de provoquer la réunion d'une commission mixte paritaire chargée de proposer un texte sur les dispositions restant en discussion.
 Le texte élaboré par la commission mixte peut être soumis par le Gouvernement pour approbation aux deux Assemblées. Aucun amendement n'est recevable sauf accord du Gouvernement.
 Si la commission mixte ne parvient pas à l'adoption d'un texte commun ou si ce texte n'est pas adopté dans les conditions prévues à l'alinéa précédent, le Gouvernement peut, après une nouvelle lecture par l'Assemblée nationale et par le Sénat, demander à l'Assemblée nationale de statuer définitivement. En ce cas, l'Assemblée nationale peut reprendre soit le texte élaboré par la commission mixte, soit le dernier texte voté par elle, modifié le cas échéant par un ou plusieurs des amendements adoptés par le Sénat.
+
 Article 46
 Les lois auxquelles la Constitution confère le caractère de lois organiques sont votées et modifiées dans les conditions suivantes :
 Le projet ou la proposition n'est soumis à la délibération et au vote de la première assemblée saisie qu'à l'expiration d'un délai de quinze jours après son dépôt.
 La procédure de l'article 45 est applicable. Toutefois, faute d'accord entre les deux assemblées, le texte ne peut être adopté par l'Assemblée nationale en dernière lecture qu'à la majorité absolue de ses membres.
 Les lois organiques relatives au Sénat doivent être votées dans les mêmes termes par les deux assemblées.
 Les lois organiques ne peuvent être promulguées qu'après déclaration par le Conseil constitutionnel de leur conformité à la Constitution.
+
 Article 47
 Le Parlement vote les projets de loi de finances dans les conditions prévues par une loi organique.
 Si l'Assemblée nationale ne s'est pas prononcée en première lecture dans le délai de quarante jours après le dépôt d'un projet, le Gouvernement saisit le Sénat qui doit statuer dans un délai de quinze jours. Il est ensuite procédé dans les conditions prévues à l'article 45.
@@ -397,84 +251,93 @@ Si le Parlement ne s'est pas prononcé dans un délai de soixante-dix jours, les
 Si la loi de finances fixant les ressources et les charges d'un exercice n'a pas été déposée en temps utile pour être promulguée avant le début de cet exercice, le Gouvernement demande d'urgence au Parlement l'autorisation de percevoir les impôts et ouvre par décret les crédits se rapportant aux services votés.
 Les délais prévus au présent article sont suspendus lorsque le Parlement n'est pas en session.
 La Cour des comptes assiste le Parlement et le Gouvernement dans le contrôle de l'exécution des lois de finances.
+
 Article 47-1
-Création Loi constitutionnelle n°96-138 du 22 février 1996 - art. 3
 Le Parlement vote les projets de loi de financement de la sécurité sociale dans les conditions prévues par une loi organique.
 Si l'Assemblée nationale ne s'est pas prononcée en première lecture dans le délai de vingt jours après le dépôt d'un projet, le Gouvernement saisit le Sénat qui doit statuer dans un délai de quinze jours. Il est ensuite procédé dans les conditions prévues à l'article 45.
 Si le Parlement ne s'est pas prononcé dans un délai de cinquante jours, les dispositions du projet peuvent être mises en oeuvre par ordonnance.
 Les délais prévus au présent article sont suspendus lorsque le Parlement n'est pas en session et, pour chaque assemblée, au cours des semaines où elle a décidé de ne pas tenir séance, conformément au deuxième alinéa de l'article 28.
 La Cour des comptes assiste le Parlement et le Gouvernement dans le contrôle de l'application des lois de financement de la sécurité sociale.
+
 Article 48
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 4
 Sans préjudice de l'application des trois derniers alinéas de l'article 28, l'ordre du jour des assemblées comporte, par priorité et dans l'ordre que le Gouvernement a fixé, la discussion des projets de loi déposés par le Gouvernement et des propositions de loi acceptées par lui.
 Une séance par semaine au moins est réservée par priorité aux questions des membres du Parlement et aux réponses du Gouvernement.
 Une séance par mois est réservée par priorité à l'ordre du jour fixé par chaque assemblée.
+
 Article 49
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 5
 Le Premier ministre, après délibération du Conseil des ministres, engage devant l'Assemblée nationale la responsabilité du Gouvernement sur son programme ou éventuellement sur une déclaration de politique générale.
 L'Assemblée nationale met en cause la responsabilité du Gouvernement par le vote d'une motion de censure. Une telle motion n'est recevable que si elle est signée par un dixième au moins des membres de l'Assemblée nationale. Le vote ne peut avoir lieu que quarante-huit heures après son dépôt. Seuls sont recensés les votes favorables à la motion de censure qui ne peut être adoptée qu'à la majorité des membres composant l'Assemblée. Sauf dans le cas prévu à l'alinéa ci-dessous, un député ne peut être signataire de plus de trois motions de censure au cours d'une même session ordinaire et de plus d'une au cours d'une même session extraordinaire.
 Le Premier ministre peut, après délibération du Conseil des ministres, engager la responsabilité du Gouvernement devant l'Assemblée nationale sur le vote d'un texte. Dans ce cas, ce texte est considéré comme adopté, sauf si une motion de censure, déposée dans les vingt-quatre heures qui suivent, est votée dans les conditions prévues à l'alinéa précédent.
 Le Premier ministre a la faculté de demander au Sénat l'approbation d'une déclaration de politique générale.
+
 Article 50
 Lorsque l'Assemblée nationale adopte une motion de censure ou lorsqu'elle désapprouve le programme ou une déclaration de politique générale du Gouvernement, le Premier ministre doit remettre au Président de la République la démission du Gouvernement.
+
 Article 51
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 6
 La clôture de la session ordinaire ou des sessions extraordinaires est de droit retardée pour permettre, le cas échéant, l'application de
 l'article 49
 .A cette même fin, des séances supplémentaires sont de droit.
-Titre VI : Des traités et accords internationaux (Articles 52 à 55)
+
 Article 52
 Le Président de la République négocie et ratifie les traités.
 Il est informé de toute négociation tendant à la conclusion d'un accord international non soumis à ratification.
+
 Article 53
 Les traités de paix, les traités de commerce, les traités ou accords relatifs à l'organisation internationale, ceux qui engagent les finances de l'Etat, ceux qui modifient des dispositions de nature législative, ceux qui sont relatifs à l'état des personnes, ceux qui comportent cession, échange ou adjonction de territoire, ne peuvent être ratifiés ou approuvés qu'en vertu d'une loi.
 Ils ne prennent effet qu'après avoir été ratifiés ou approuvés.
 Nulle cession, nul échange, nulle adjonction de territoire n'est valable sans le consentement des populations intéressées.
+
 Article 53-1
-Création Loi constitutionnelle n°93-1256 du 25 novembre ... - art. unique
 La République peut conclure avec les Etats européens qui sont liés par des engagements identiques aux siens en matière d'asile et de protection des Droits de l'homme et des libertés fondamentales, des accords déterminant leurs compétences respectives pour l'examen des demandes d'asile qui leur sont présentées.
 Toutefois, même si la demande n'entre pas dans leur compétence en vertu de ces accords, les autorités de la République ont toujours le droit de donner asile à tout étranger persécuté en raison de son action en faveur de la liberté ou qui sollicite la protection de la France pour un autre motif.
+
 Article 53-2
-Création Loi constitutionnelle n°99-568 du 8 juillet 1999 - art. unique
 La République peut reconnaître la juridiction de la Cour pénale internationale dans les conditions prévues par le traité signé le 18 juillet 1998.
+
 Article 54
-Modifié par Loi constitutionnelle n° 92-554 du 25 juin 1992 - art. 2
 Si le Conseil constitutionnel, saisi par le Président de la République, par le Premier ministre, par le président de l'une ou l'autre assemblée ou par soixante députés ou soixante sénateurs, a déclaré qu'un engagement international comporte une clause contraire à la Constitution, l'autorisation de ratifier ou d'approuver l'engagement international en cause ne peut intervenir qu'après la révision de la Constitution.
+
 Article 55
 Les traités ou accords régulièrement ratifiés ou approuvés ont, dès leur publication, une autorité supérieure à celle des lois, sous réserve, pour chaque accord ou traité, de son application par l'autre partie.
-Titre VII : Le Conseil constitutionnel (Articles 56 à 63)
+
 Article 56
 Le Conseil constitutionnel comprend neuf membres, dont le mandat dure neuf ans et n'est pas renouvelable. Le Conseil constitutionnel se renouvelle par tiers tous les trois ans. Trois des membres sont nommés par le Président de la République, trois par le président de l'Assemblée nationale, trois par le président du Sénat.
 En sus des neuf membres prévus ci-dessus, font de droit partie à vie du Conseil constitutionnel les anciens Présidents de la République.
 Le Président est nommé par le Président de la République. Il a voix prépondérante en cas de partage.
+
 Article 57
 Les fonctions de membre du Conseil constitutionnel sont incompatibles avec celles de ministre ou de membre du Parlement. Les autres incompatibilités sont fixées par une loi organique.
+
 Article 58
 Le Conseil constitutionnel veille à la régularité de l'élection du Président de la République.
 Il examine les réclamations et proclame les résultats du scrutin.
+
 Article 59
 Le Conseil constitutionnel statue, en cas de contestation, sur la régularité de l'élection des députés et des sénateurs.
+
 Article 60
 Le Conseil constitutionnel veille à la régularité des opérations de référendum et en proclame les résultats.
+
 Article 61
-Modifié par Loi constitutionnelle n° 74-904 du 29 octobre 1974, v. init.
 Les lois organiques, avant leur promulgation, et les règlements des assemblées parlementaires, avant leur mise en application, doivent être soumis au Conseil constitutionnel, qui se prononce sur leur conformité à la Constitution.
 Aux mêmes fins, les lois peuvent être déférées au Conseil constitutionnel, avant leur promulgation, par le Président de la République, le Premier ministre, le Président de l'Assemblée nationale, le Président du Sénat ou soixante députés ou soixante sénateurs.
 Dans les cas prévus aux deux alinéas précédents, le Conseil constitutionnel doit statuer dans le délai d'un mois. Toutefois, à la demande du Gouvernement, s'il y a urgence, ce délai est ramené à huit jours.
 Dans ces mêmes cas, la saisine du Conseil constitutionnel suspend le délai de promulgation.
+
 Article 62
 Une disposition déclarée inconstitutionnelle ne peut être promulguée ni mise en application.
 Les décisions du Conseil constitutionnel ne sont susceptibles d'aucun recours. Elles s'imposent aux pouvoirs publics et à toutes les autorités administratives et juridictionnelles.
+
 Article 63
 Une loi organique détermine les règles d'organisation et de fonctionnement du Conseil constitutionnel, la procédure qui est suivie devant lui, et notamment les délais ouverts pour le saisir de contestations.
-Titre VIII : De l'autorité judiciaire (Articles 64 à 66)
+
 Article 64
 Le Président de la République est garant de l'indépendance de l'autorité judiciaire.
 Il est assisté par le Conseil supérieur de la magistrature.
 Une loi organique porte statut des magistrats.
 Les magistrats du siège sont inamovibles.
+
 Article 65
-Modifié par Loi n°93-952 du 27 juillet 1993 - art. 1 () JORF 28 juillet 1993
 Le Conseil supérieur de la magistrature est présidé par le Président de la République. Le ministre de la justice en est le vice-président de droit. Il peut suppléer le Président de la République.
 Le Conseil supérieur de la magistrature comprend deux formations, l'une compétente à l'égard des magistrats du siège, l'autre à l'égard des magistrats du parquet.
 La formation compétente à l'égard des magistrats du siège comprend, outre le Président de la République et le garde des sceaux, cinq magistrats du siège et un magistrat du parquet, un conseiller d'Etat, désigné par le Conseil d'Etat, et trois personnalités n'appartenant ni au Parlement ni à l'ordre judiciaire, désignées respectivement par le Président de la République, le président de l'Assemblée nationale et le président du Sénat.
@@ -484,281 +347,112 @@ Elle statue comme conseil de discipline des magistrats du siège. Elle est alors
 La formation du Conseil supérieur de la magistrature compétente à l'égard des magistrats du parquet donne son avis pour les nominations concernant les magistrats du parquet, à l'exception des emplois auxquels il est pourvu en conseil des ministres.
 Elle donne son avis sur les sanctions disciplinaires concernant les magistrats du parquet. Elle est alors présidée par le procureur général près la Cour de cassation.
 Une loi organique détermine les conditions d'application du présent article.
+
 Article 66
 Nul ne peut être arbitrairement détenu.
 L'autorité judiciaire, gardienne de la liberté individuelle, assure le respect de ce principe dans les conditions prévues par la loi.
-Titre IX : La Haute Cour de Justice. (Articles 67 à 68)
+
 Article 67
 Il est institué une Haute Cour de Justice.
 Elle est composée de membres élus, en leur sein et en nombre égal, par l'Assemblée nationale et par le Sénat après chaque renouvellement général ou partiel de ces assemblées. Elle élit son Président parmi ses membres.
 Une loi organique fixe la composition de la Haute Cour, les règles de son fonctionnement ainsi que la procédure applicable devant elle.
+
 Article 68
-Modifié par Loi n°93-952 du 27 juillet 1993 - art. 2 () JORF 28 juillet 1993
 Le Président de la République n'est responsable des actes accomplis dans l'exercice de ses fonctions qu'en cas de haute trahison. Il ne peut être mis en accusation que par les deux assemblées statuant par un vote identique au scrutin public et à la majorité absolue des membres les composant ; il est jugé par la Haute Cour de Justice.
-Titre X : De la responsabilité pénale des membres du Gouvernement (Articles 68-1 à 68-3)
+
 Article 68-1
-Création Loi n°93-952 du 27 juillet 1993 - art. 4 () JORF 28 juillet 1993
 Les membres du Gouvernement sont pénalement responsables des actes accomplis dans l'exercice de leurs fonctions et qualifiés crimes ou délits au moment où ils ont été commis.
 Ils sont jugés par la Cour de justice de la République.
 La Cour de justice de la République est liée par la définition des crimes et délits ainsi que par la détermination des peines telles qu'elles résultent de la loi.
+
 Article 68-2
-Création Loi n°93-952 du 27 juillet 1993 - art. 4 () JORF 28 juillet 1993
 La Cour de justice de la République comprend quinze juges : douze parlementaires élus, en leur sein et en nombre égal, par l'Assemblée nationale et par le Sénat après chaque renouvellement général ou partiel de ces assemblées et trois magistrats du siège à la Cour de cassation, dont l'un préside la Cour de justice de la République.
 Toute personne qui se prétend lésée par un crime ou un délit commis par un membre du Gouvernement dans l'exercice de ses fonctions peut porter plainte auprès d'une commission des requêtes.
 Cette commission ordonne soit le classement de la procédure, soit sa transmission au procureur général près la Cour de cassation aux fins de saisine de la Cour de justice de la République.
 Le procureur général près la Cour de cassation peut aussi saisir d'office la Cour de justice de la République sur avis conforme de la commission des requêtes.
 Une loi organique détermine les conditions d'application du présent article.
+
 Article 68-3
-Création Loi constitutionnelle n°95-880 du 4 août 1995 - art. 10
 Les dispositions du présent titre sont applicables aux faits commis avant son entrée en vigueur.
-Titre XI : Le Conseil économique et social. (Articles 69 à 71)
+
 Article 69
-Modifié par Loi n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
 Le Conseil économique et social, saisi par le Gouvernement, donne son avis sur les projets de loi, d'ordonnance ou de décret ainsi que sur les propositions de loi qui lui sont soumis.
 Un membre du Conseil économique et social peut être désigné par celui-ci pour exposer devant les assemblées parlementaires l'avis du Conseil sur les projets ou propositions qui lui ont été soumis.
+
 Article 70
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 11
 Le Conseil économique et social peut être également consulté par le Gouvernement sur tout problème de caractère économique ou social. Tout plan ou tout projet de loi de programme à caractère économique ou social lui est soumis pour avis.
+
 Article 71
-Modifié par Loi n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
 La composition du Conseil économique et social et ses règles de fonctionnement sont fixées par une loi organique.
-Titre XII : Des collectivités territoriales (Articles 72 à 75)
+
 Article 72
-Modifié par Loi n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
 Les collectivités territoriales de la République sont les communes, les départements, les territoires d'outre-mer. Toute autre collectivité territoriale est créée par la loi.
 Ces collectivités s'administrent librement par des conseils élus et dans les conditions fixées par la loi.
 Dans les départements et les territoires, le délégué du Gouvernement a la charge des intérêts nationaux, du contrôle administratif et du respect des lois.
+
 Article 73
-Modifié par Loi n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
 Le régime législatif et l'organisation administrative des départements d'outre-mer peuvent faire l'objet de mesures d'adaptation nécessitées par leur situation particulière.
+
 Article 74
-Modifié par Loi n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
 Les territoires d'outre-mer de la République ont une organisation particulière tenant compte de leurs intérêts propres dans l'ensemble des intérêts de la République.
 Les statuts des territoires d'outre-mer sont fixés par des lois organiques qui définissent, notamment, les compétences de leurs institutions propres, et modifiés, dans la même forme, après consultation de l'assemblée territoriale intéressée.
 Les autres modalités de leur organisation particulière sont définies et modifiées par la loi après consultation de l'assemblée territoriale intéressée.
+
 Article 75
-Modifié par Loi n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
 Les citoyens de la République qui n'ont pas le statut civil de droit commun, seul visé à
 l'article 34
 , conservent leur statut personnel tant qu'ils n'y ont pas renoncé.
-Article 76 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 12
-Modifié par Loi n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
-Les territoires d'outre-mer peuvent garder leur statut au sein de la République.
-S'ils en manifestent la volonté par délibération de leur assemblée territoriale prise dans le délai prévu au premier alinéa de
-l'article 91
-, ils deviennent soit départements d'outre-mer de la République, soit, groupés ou non entre eux, Etats membres de la Communauté.
-Titre XIII : De la Communauté. (Articles 76 à 77)
-(abrogé)
+
 Article 76
-Modifié par Loi constitutionnelle n°98-610 du 20 juillet 1998 - art. 1
-Modifié par Loi constitutionnelle n°98-610 du 20 juillet 1998 - art. 2
 Les populations de la Nouvelle-Calédonie sont appelées à se prononcer avant le 31 décembre 1998 sur les dispositions de l'accord signé à Nouméa le 5 mai 1998 et publié le 27 mai 1998 au Journal officiel de la République française.
 Sont admises à participer au scrutin les personnes remplissant les conditions fixées à
 l'article 2 de la loi n° 88-1028 du 9 novembre 1988
 .
 Les mesures nécessaires à l'organisation du scrutin sont prises par décret en Conseil d'Etat délibéré en conseil des ministres.
-Article 77 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Dans la Communauté instituée par la présente Constitution, les Etats jouissent de l'autonomie ; ils s'administrent eux-mêmes et gèrent démocratiquement et librement leurs propres affaires.
-Il n'existe qu'une citoyenneté de la Communauté.
-Tous les citoyens sont égaux en droit, quelles que soient leur origine, leur race et leur religion. Ils ont les mêmes devoirs.
+
 Article 77
-Modifié par Loi constitutionnelle n°98-610 du 20 juillet 1998 - art. 1, art. 3
 Après approbation de l'accord lors de la consultation prévue à l'article 76, la loi organique, prise après avis de l'assemblée délibérante de la Nouvelle-Calédonie, détermine, pour assurer l'évolution de la Nouvelle-Calédonie dans le respect des orientations définies par cet accord et selon les modalités nécessaires à sa mise en oeuvre :
 - les compétences de l'Etat qui seront transférées, de façon définitive, aux institutions de la Nouvelle-Calédonie, l'échelonnement et les modalités de ces transferts, ainsi que la répartition des charges résultant de ceux-ci ;
 - les règles d'organisation et de fonctionnement des institutions de la Nouvelle-Calédonie et notamment les conditions dans lesquelles certaines catégories d'actes de l'assemblée délibérante pourront être soumises avant publication au contrôle du Conseil constitutionnel ;
 - les règles relatives à la citoyenneté, au régime électoral, à l'emploi et au statut civil coutumier ;
 - les conditions et les délais dans lesquels les populations intéressées de la Nouvelle-Calédonie seront amenées à se prononcer sur l'accession à la pleine souveraineté.
 Les autres mesures nécessaires à la mise en oeuvre de l'accord mentionné à l'article 76 sont définies par la loi.
-Article 78 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Le domaine de la compétence de la Communauté comprend la politique étrangère, la défense, la monnaie, la politique économique et financière commune ainsi que la politique des matières premières stratégiques. Il comprend en outre, sauf accord particulier, le contrôle de la justice, l'enseignement supérieur, l'organisation générale des transports extérieurs et communs et des télécommunications. Des accords particuliers peuvent créer d'autres compétences communes ou régler tout transfert de compétence de la Communauté à l'un de ses membres.
-Article 79 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Les Etats membres bénéficient des dispositions de l'article 77 dès qu'ils ont exercé le choix prévu à l'article 76.
-Jusqu'à l'entrée en vigueur des mesures nécessaires à l'application du présent titre, les questions de compétence commune sont réglées par la République.
-Article 80 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Le Président de la République préside et représente la Communauté.
-Celle-ci a pour organes un conseil exécutif, un sénat et une cour arbitrale.
-Article 81 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Les Etats membres de la Communauté participent à l'élection du président dans les conditions prévues à l'article 6.
-Le Président de la République, en sa qualité de Président de la Communauté, est représenté dans chaque Etat de la Communauté.
-Article 82 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Le conseil exécutif de la Communauté est présidé par le Président de la Communauté. Il est constitué par le Premier Ministre de la République, les chefs du gouvernement de chacun des Etats membres de la Communauté et par les ministres chargés, pour la Communauté, des affaires communes.
-Le conseil exécutif organise la coopération des membres de la Communauté sur le plan gouvernemental et administratif.
-L'organisation et le fonctionnement du conseil exécutif sont fixés par une loi organique.
-Article 83 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Le Sénat de la Communauté est composé de délégués que le Parlement de la République et les assemblées législatives des autres membres de la Communauté choisissent en leur sein. Le nombre de délégués de chaque Etat tient compte de sa population et des responsabilités qu'il assume dans la Communauté.
-Il tient deux sessions annuelles qui sont ouvertes et closes par le président de la Communauté et ne peuvent excéder chacune un mois.
-Saisi par le président de la Communauté, il délibère sur la politique économique et financière commune avant le vote des lois prises en la matière par le Parlement de la République et, le cas échéant, par les assemblées législatives des autres membres de la Communauté.
-Le Sénat de la Communauté examine les actes et les traités ou accords internationaux visés aux articles 35 et 53 et qui engagent la Communauté.
-Il prend des décisions exécutoires dans les domaines où il a reçu délégation des assemblées législatives des membres de la Communauté. Ces décisions sont promulguées dans la même forme que la loi sur le territoire de chacun des Etats intéressés.
-Une loi organique arrête sa composition et fixe ses règles de fonctionnement.
-Article 84 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Une cour arbitrale de la Communauté statue sur les litiges survenus entre les membres de la Communauté.
-Sa composition et sa compétence sont fixées par une loi organique.
-Article 85 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Modifié par LOI constitutionnelle n° 60-525 du 4 juin 1960, v. init.
-Par dérogation à la procédure prévue à l'article 89, les dispositions du présent titre qui concernent le fonctionnement des institutions communes sont révisées par des lois votées dans les mêmes termes par le Parlement de la République et par le Sénat de la Communauté.
-Les dispositions du présent titre peuvent être également révisées par accords conclus entre tous les Etats de la Communauté ; les dispositions nouvelles sont mises en vigueur dans les conditions requises par la Constitution de chaque Etat.
-Article 86 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Modifié par LOI constitutionnelle n° 60-525 du 4 juin 1960, v. init.
-La transformation du statut d'un Etat membre de la Communauté peut être demandée soit par la République, soit par une résolution de l'assemblée législative de l'Etat intéressé confirmée par un référendum local dont l'organisation et le contrôle sont assurés par les institutions de la Communauté. Les modalités de cette transformation sont déterminées par un accord approuvé par le Parlement de la République et l'assemblée législative intéressée.
-Dans les mêmes conditions, un Etat membre de la Communauté peut devenir indépendant. Il cesse de ce fait d'appartenir à la Communauté.
-Un Etat membre de la Communauté peut également, par voie d'accords, devenir indépendant sans cesser de ce fait d'appartenir à la Communauté.
-Un Etat indépendant non membre de la Communauté peut, par voie d'accords, adhérer à la Communauté sans cesser d'être indépendant.
-La situation de ces Etats au sein de la Communauté est déterminée par accords conclus à cet effet, notamment par les accords visés aux alinéas précédents ainsi que, le cas échéant, les accords prévus au deuxième alinéa de l'article 85.
-Article 87 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Les accords particuliers conclus pour l'application du présent titre sont approuvés par le Parlement de la République et l'assemblée législative intéressée.
-Titre XIII : Dispositions transitoires relatives à la Nouvelle-Calédonie (Articles 76 à 77)
+
 Article 76
-Modifié par Loi constitutionnelle n°98-610 du 20 juillet 1998 - art. 1
-Modifié par Loi constitutionnelle n°98-610 du 20 juillet 1998 - art. 2
 Les populations de la Nouvelle-Calédonie sont appelées à se prononcer avant le 31 décembre 1998 sur les dispositions de l'accord signé à Nouméa le 5 mai 1998 et publié le 27 mai 1998 au Journal officiel de la République française.
 Sont admises à participer au scrutin les personnes remplissant les conditions fixées à
 l'article 2 de la loi n° 88-1028 du 9 novembre 1988
 .
 Les mesures nécessaires à l'organisation du scrutin sont prises par décret en Conseil d'Etat délibéré en conseil des ministres.
-Article 77 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Dans la Communauté instituée par la présente Constitution, les Etats jouissent de l'autonomie ; ils s'administrent eux-mêmes et gèrent démocratiquement et librement leurs propres affaires.
-Il n'existe qu'une citoyenneté de la Communauté.
-Tous les citoyens sont égaux en droit, quelles que soient leur origine, leur race et leur religion. Ils ont les mêmes devoirs.
+
 Article 77
-Modifié par Loi constitutionnelle n°98-610 du 20 juillet 1998 - art. 1, art. 3
 Après approbation de l'accord lors de la consultation prévue à l'article 76, la loi organique, prise après avis de l'assemblée délibérante de la Nouvelle-Calédonie, détermine, pour assurer l'évolution de la Nouvelle-Calédonie dans le respect des orientations définies par cet accord et selon les modalités nécessaires à sa mise en oeuvre :
 - les compétences de l'Etat qui seront transférées, de façon définitive, aux institutions de la Nouvelle-Calédonie, l'échelonnement et les modalités de ces transferts, ainsi que la répartition des charges résultant de ceux-ci ;
 - les règles d'organisation et de fonctionnement des institutions de la Nouvelle-Calédonie et notamment les conditions dans lesquelles certaines catégories d'actes de l'assemblée délibérante pourront être soumises avant publication au contrôle du Conseil constitutionnel ;
 - les règles relatives à la citoyenneté, au régime électoral, à l'emploi et au statut civil coutumier ;
 - les conditions et les délais dans lesquels les populations intéressées de la Nouvelle-Calédonie seront amenées à se prononcer sur l'accession à la pleine souveraineté.
 Les autres mesures nécessaires à la mise en oeuvre de l'accord mentionné à l'article 76 sont définies par la loi.
-Article 78 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Le domaine de la compétence de la Communauté comprend la politique étrangère, la défense, la monnaie, la politique économique et financière commune ainsi que la politique des matières premières stratégiques. Il comprend en outre, sauf accord particulier, le contrôle de la justice, l'enseignement supérieur, l'organisation générale des transports extérieurs et communs et des télécommunications. Des accords particuliers peuvent créer d'autres compétences communes ou régler tout transfert de compétence de la Communauté à l'un de ses membres.
-Article 79 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Les Etats membres bénéficient des dispositions de l'article 77 dès qu'ils ont exercé le choix prévu à l'article 76.
-Jusqu'à l'entrée en vigueur des mesures nécessaires à l'application du présent titre, les questions de compétence commune sont réglées par la République.
-Article 80 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Le Président de la République préside et représente la Communauté.
-Celle-ci a pour organes un conseil exécutif, un sénat et une cour arbitrale.
-Article 81 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Les Etats membres de la Communauté participent à l'élection du président dans les conditions prévues à l'article 6.
-Le Président de la République, en sa qualité de Président de la Communauté, est représenté dans chaque Etat de la Communauté.
-Article 82 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Le conseil exécutif de la Communauté est présidé par le Président de la Communauté. Il est constitué par le Premier Ministre de la République, les chefs du gouvernement de chacun des Etats membres de la Communauté et par les ministres chargés, pour la Communauté, des affaires communes.
-Le conseil exécutif organise la coopération des membres de la Communauté sur le plan gouvernemental et administratif.
-L'organisation et le fonctionnement du conseil exécutif sont fixés par une loi organique.
-Article 83 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Le Sénat de la Communauté est composé de délégués que le Parlement de la République et les assemblées législatives des autres membres de la Communauté choisissent en leur sein. Le nombre de délégués de chaque Etat tient compte de sa population et des responsabilités qu'il assume dans la Communauté.
-Il tient deux sessions annuelles qui sont ouvertes et closes par le président de la Communauté et ne peuvent excéder chacune un mois.
-Saisi par le président de la Communauté, il délibère sur la politique économique et financière commune avant le vote des lois prises en la matière par le Parlement de la République et, le cas échéant, par les assemblées législatives des autres membres de la Communauté.
-Le Sénat de la Communauté examine les actes et les traités ou accords internationaux visés aux articles 35 et 53 et qui engagent la Communauté.
-Il prend des décisions exécutoires dans les domaines où il a reçu délégation des assemblées législatives des membres de la Communauté. Ces décisions sont promulguées dans la même forme que la loi sur le territoire de chacun des Etats intéressés.
-Une loi organique arrête sa composition et fixe ses règles de fonctionnement.
-Article 84 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Une cour arbitrale de la Communauté statue sur les litiges survenus entre les membres de la Communauté.
-Sa composition et sa compétence sont fixées par une loi organique.
-Article 85 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Modifié par LOI constitutionnelle n° 60-525 du 4 juin 1960, v. init.
-Par dérogation à la procédure prévue à l'article 89, les dispositions du présent titre qui concernent le fonctionnement des institutions communes sont révisées par des lois votées dans les mêmes termes par le Parlement de la République et par le Sénat de la Communauté.
-Les dispositions du présent titre peuvent être également révisées par accords conclus entre tous les Etats de la Communauté ; les dispositions nouvelles sont mises en vigueur dans les conditions requises par la Constitution de chaque Etat.
-Article 86 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Modifié par LOI constitutionnelle n° 60-525 du 4 juin 1960, v. init.
-La transformation du statut d'un Etat membre de la Communauté peut être demandée soit par la République, soit par une résolution de l'assemblée législative de l'Etat intéressé confirmée par un référendum local dont l'organisation et le contrôle sont assurés par les institutions de la Communauté. Les modalités de cette transformation sont déterminées par un accord approuvé par le Parlement de la République et l'assemblée législative intéressée.
-Dans les mêmes conditions, un Etat membre de la Communauté peut devenir indépendant. Il cesse de ce fait d'appartenir à la Communauté.
-Un Etat membre de la Communauté peut également, par voie d'accords, devenir indépendant sans cesser de ce fait d'appartenir à la Communauté.
-Un Etat indépendant non membre de la Communauté peut, par voie d'accords, adhérer à la Communauté sans cesser d'être indépendant.
-La situation de ces Etats au sein de la Communauté est déterminée par accords conclus à cet effet, notamment par les accords visés aux alinéas précédents ainsi que, le cas échéant, les accords prévus au deuxième alinéa de l'article 85.
-Article 87 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Les accords particuliers conclus pour l'application du présent titre sont approuvés par le Parlement de la République et l'assemblée législative intéressée.
-Titre XIV : Des accords d'association. (Article 88)
+
 Article 88
-Modifié par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 13
 La République peut conclure des accords avec des Etats qui désirent s'associer à elle pour développer leurs civilisations.
-Titre XV : Des Communautés européennes et de l'Union européenne (Articles 88-1 à 88-4)
+
 Article 88-1
-Modifié par Loi n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
 La République participe aux Communautés européennes et à l'Union européenne, constituées d'Etats qui ont choisi librement, en vertu des traités qui les ont instituées, d'exercer en commun certaines de leurs compétences.
+
 Article 88-2
-Modifié par Loi constitutionnelle n°2003-267 du 25 mars 2003 - art. unique
 Sous réserve de réciprocité, et selon les modalités prévues par le Traité sur l'Union européenne signé le 7 février 1992, la France consent aux transferts de compétences nécessaires à l'établissement de l'union économique et monétaire européenne.
 Sous la même réserve et selon les modalités prévues par le Traité instituant la Communauté européenne, dans sa rédaction résultant du traité signé le 2 octobre 1997, peuvent être consentis les transferts de compétences nécessaires à la détermination des règles relatives à la libre circulation des personnes et aux domaines qui lui sont liés.
-La loi fixe les règles relatives au mandat d'arrêt européen en application des actes pris sur le fondement du Traité sur l'Union européenne.
-Loi constitutionnelle n° 2008-103 du 4 février 2008, art. 2 : le présent article cessera d'être en vigueur à compter de l'entrée en vigueur du traité de Lisbonne modifiant le traité sur l'Union européenne et le traité instituant la Communauté européenne, signé le 13 décembre 2007. Le traité de Lisbonne est entré en vigueur le 1er décembre 2009.
+
 Article 88-3
-Modifié par Loi constitutionnelle n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
 Sous réserve de réciprocité et selon les modalités prévues par le Traité sur l'Union européenne signé le 7 février 1992, le droit de vote et d'éligibilité aux élections municipales peut être accordé aux seuls citoyens de l'Union résidant en France. Ces citoyens ne peuvent exercer les fonctions de maire ou d'adjoint ni participer à la désignation des électeurs sénatoriaux et à l'élection des sénateurs. Une loi organique votée dans les mêmes termes par les deux assemblées détermine les conditions d'application du présent article.
+
 Article 88-4
-Modifié par Loi constitutionnelle n°99-49 du 25 janvier 1999 - art. 2
 Le Gouvernement soumet à l'Assemblée nationale et au Sénat, dès leur transmission au Conseil de l'Union européenne, les projets ou propositions d'actes des Communautés européennes et de l'Union européenne comportant des dispositions de nature législative. Il peut également leur soumettre les autres projets ou propositions d'actes ainsi que tout document émanant d'une institution de l'Union européenne.
 Selon des modalités fixées par le règlement de chaque assemblée, des résolutions peuvent être votées, le cas échéant en dehors des sessions, sur les projets, propositions ou documents mentionnés à l'alinéa précédent.
-Loi constitutionnelle n° 2008-103 du 4 février 2008, art. 2 : le présent article cessera d'être en vigueur à compter de l'entrée en vigueur du traité de Lisbonne modifiant le traité sur l'Union européenne et le traité instituant la Communauté européenne, signé le 13 décembre 2007.
-Titre XVI : De la révision (Article 89)
+
 Article 89
 L'initiative de la révision de la Constitution appartient concurremment au Président de la République sur proposition du Premier ministre et aux membres du Parlement.
 Le projet ou la proposition de révision doit être voté par les deux assemblées en termes identiques. La révision est définitive après avoir été approuvée par référendum.
 Toutefois, le projet de révision n'est pas présenté au référendum lorsque le Président de la République décide de le soumettre au Parlement convoqué en Congrès ; dans ce cas, le projet de révision n'est approuvé que s'il réunit la majorité des trois cinquièmes des suffrages exprimés. Le bureau du Congrès est celui de l'Assemblée nationale.
 Aucune procédure de révision ne peut être engagée ou poursuivie lorsqu'il est porté atteinte à l'intégrité du territoire.
 La forme républicaine du Gouvernement ne peut faire l'objet d'une révision.
-Titre XVII : Dispositions transitoires.
-(abrogé)
-Article 90 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Modifié par Loi constitutionnelle n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
-La session ordinaire du Parlement est suspendue. Le mandat des membres de l'Assemblée nationale en fonctions viendra à expiration le jour de la réunion de l'Assemblée élue en vertu de la présente Constitution.
-Le Gouvernement, jusqu'à cette réunion, a seul autorité pour convoquer le Parlement.
-Le mandat des membres de l'Assemblée de l'Union française viendra à expiration en même temps que le mandat des membres de l'Assemblée nationale actuellement en fonctions.
-Article 91 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Modifié par Loi constitutionnelle n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
-Les institutions de la République prévues par la présente Constitution seront en place dans le délai de quatre mois à compter de sa promulgation.
-Ce délai est porté à six mois pour les institutions de la Communauté.
-Les pouvoirs du Président de la République en fonctions ne viendront à expiration que lors de la proclamation des résultats de l'élection prévue par les articles 6 et 7 de la présente Constitution.
-Les Etats membres de la Communauté participeront à cette première élection dans les conditions découlant de leur statut à la date de la promulgation de la Constitution.
-Les autorités établies continueront d'exercer leurs fonctions dans ces Etats conformément aux lois et règlements applicables au moment de l'entrée en vigueur de la Constitution jusqu'à la mise en place des autorités prévues par leur nouveau régime.
-Jusqu'à sa constitution définitive, le Sénat est formé par les membres en fonctions du Conseil de la République. Les lois organiques qui régleront la constitution définitive du Sénat devront intervenir avant le 31 juillet 1959.
-Les attributions conférées au Conseil constitutionnel par les articles 58 et 59 de la Constitution seront exercées, jusqu'à la mise en place de ce Conseil, par une commission composée du vice-président du Conseil d'Etat, président, du Premier président de la Cour de cassation et du Premier président de la Cour des comptes.
-Les peuples des Etats membres de la Communauté continuent à être représentés au Parlement jusqu'à l'entrée en vigueur des mesures nécessaires à l'application du titre XII
-Article 92 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Modifié par Loi constitutionnelle n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
-Les mesures législatives nécessaires à la mise en place des institutions et, jusqu'à cette mise en place, au fonctionnement des pouvoirs publics seront prises en conseil des ministres, après avis du Conseil d'Etat, par ordonnance ayant force de loi.
-Pendant le délai prévu à l'alinéa 1er de l'article 91, le Gouvernement est autorisé à fixer par ordonnances ayant force de loi et prises en la même forme le régime électoral des assemblées prévues par la Constitution.
-Pendant le même délai et dans les mêmes conditions, le Gouvernement pourra également prendre en toutes matières les mesures qu'il jugera nécessaires à la vie de la nation, à la protection des citoyens ou à la sauvegarde des libertés.
-La présente loi sera exécutée comme Constitution de la République et de la Communauté.
-Article 93 (abrogé)
-Abrogé par Loi constitutionnelle n°95-880 du 4 août 1995 - art. 14
-Création Loi constitutionnelle n°93-952 du 27 juillet 1993 - art. 3 () JORF 28 juillet 1993
-Les dispositions de l'article 65 et du titre X, dans leur rédaction issue de la loi constitutionnelle n° 93-952 du 27 juillet 1993, entreront en vigueur à la date de publication des lois organiques prises pour leur application.
-Les dispositions du titre X, dans leur rédaction issue de la loi constitutionnelle n° 93-952 du 27 juillet 1993, sont applicables aux faits commis avant son entrée en vigueur.
-Le Président de la République : RENE COTY
-Le Président du Conseil des ministres, CHARLES DE GAULLE
-Le Ministre d'Etat, GUY MOLLET
-Le Ministre d'Etat, PIERRE PFLIMLIN
-Le Ministre d'Etat, FELIX HOUPHOUET-BOIGNY
-Le Ministre d'Etat, LOUIS JACQUINOT
-Le Ministre délégué à la Présidence du Conseil, ANDRE MALRAUX
-Le Garde des Sceaux, Ministre de la Justice, MICHEL DEBRE
-Le Ministre des Affaires étrangères, MAURICE COUVE DE MURVILLE
-Le Ministre de l'Intérieur, EMILE PELLETIER
-Le Ministre des Armées, PIERRE GUILLAUMAT
-Le Ministre des Finances et des Affaires économiques, ANTOINE PINAY.
-Retourner en haut de la page

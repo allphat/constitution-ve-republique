@@ -1,152 +1,152 @@
 [
   {
     "date": "1958-10-05",
-    "description": "Version initiale - Constitution du 4 octobre 1958 (promulguée le 5 octobre)",
+    "description": "Version du 1958-10-05",
     "nb_articles": 92,
-    "file": "versions/constitution_1958-10-05.md"
+    "file": "clean_versions/constitution_1958-10-05.md"
   },
   {
     "date": "1960-06-04",
-    "description": "Loi constitutionnelle n° 60-525 du 4 juin 1960 - Complément au titre XII (Communauté)",
-    "nb_articles": 92,
-    "file": "versions/constitution_1960-06-04.md"
+    "description": "Version du 1960-06-04",
+    "nb_articles": 93,
+    "file": "clean_versions/constitution_1960-06-04.md"
   },
   {
     "date": "1962-11-06",
-    "description": "Loi n° 62-1292 du 6 novembre 1962 - Élection du Président au suffrage universel direct",
-    "nb_articles": 92,
-    "file": "versions/constitution_1962-11-06.md"
+    "description": "Version du 1962-11-06",
+    "nb_articles": 93,
+    "file": "clean_versions/constitution_1962-11-06.md"
   },
   {
     "date": "1963-12-30",
-    "description": "Loi constitutionnelle n° 63-1327 du 30 décembre 1963 - Dates et durées des sessions parlementaires",
-    "nb_articles": 92,
-    "file": "versions/constitution_1963-12-30.md"
+    "description": "Version du 1963-12-30",
+    "nb_articles": 93,
+    "file": "clean_versions/constitution_1963-12-30.md"
   },
   {
     "date": "1974-10-29",
-    "description": "Loi constitutionnelle n° 74-904 du 29 octobre 1974 - Saisine du Conseil constitutionnel",
-    "nb_articles": 92,
-    "file": "versions/constitution_1974-10-29.md"
+    "description": "Version du 1974-10-29",
+    "nb_articles": 93,
+    "file": "clean_versions/constitution_1974-10-29.md"
   },
   {
     "date": "1976-06-18",
-    "description": "Loi constitutionnelle n° 76-527 du 18 juin 1976 - Majorité pour l'élection du Président",
-    "nb_articles": 92,
-    "file": "versions/constitution_1976-06-18.md"
+    "description": "Version du 1976-06-18",
+    "nb_articles": 93,
+    "file": "clean_versions/constitution_1976-06-18.md"
   },
   {
     "date": "1992-06-25",
-    "description": "Loi constitutionnelle n° 92-554 du 25 juin 1992 - Traité de Maastricht",
-    "nb_articles": 92,
-    "file": "versions/constitution_1992-06-25.md"
+    "description": "Version du 1992-06-25",
+    "nb_articles": 93,
+    "file": "clean_versions/constitution_1992-06-25.md"
   },
   {
     "date": "1993-07-27",
-    "description": "Loi constitutionnelle n° 93-952 du 27 juillet 1993 - Conseil supérieur de la magistrature",
-    "nb_articles": 92,
-    "file": "versions/constitution_1993-07-27.md"
+    "description": "Version du 1993-07-27",
+    "nb_articles": 97,
+    "file": "clean_versions/constitution_1993-07-27.md"
   },
   {
     "date": "1993-11-25",
-    "description": "Loi constitutionnelle n° 93-1256 du 25 novembre 1993 - Droit d'asile",
-    "nb_articles": 93,
-    "file": "versions/constitution_1993-11-25.md"
+    "description": "Version du 1993-11-25",
+    "nb_articles": 100,
+    "file": "clean_versions/constitution_1993-11-25.md"
   },
   {
     "date": "1995-08-04",
-    "description": "Loi constitutionnelle n° 95-880 du 4 août 1995 - Session unique + référendum",
-    "nb_articles": 93,
-    "file": "versions/constitution_1995-08-04.md"
+    "description": "Version du 1995-08-04",
+    "nb_articles": 101,
+    "file": "clean_versions/constitution_1995-08-04.md"
   },
   {
     "date": "1996-02-22",
-    "description": "Loi constitutionnelle n° 96-138 du 22 février 1996 - Cour de justice de la République",
-    "nb_articles": 93,
-    "file": "versions/constitution_1996-02-22.md"
+    "description": "Version du 1996-02-22",
+    "nb_articles": 86,
+    "file": "clean_versions/constitution_1996-02-22.md"
   },
   {
     "date": "1998-07-20",
-    "description": "Loi constitutionnelle n° 98-610 du 20 juillet 1998 - Nouvelle-Calédonie",
-    "nb_articles": 93,
-    "file": "versions/constitution_1998-07-20.md"
+    "description": "Version du 1998-07-20",
+    "nb_articles": 87,
+    "file": "clean_versions/constitution_1998-07-20.md"
   },
   {
     "date": "1999-01-25",
-    "description": "Loi constitutionnelle n° 99-49 du 25 janvier 1999 - Traité d'Amsterdam",
-    "nb_articles": 93,
-    "file": "versions/constitution_1999-01-25.md"
+    "description": "Version du 1999-01-25",
+    "nb_articles": 91,
+    "file": "clean_versions/constitution_1999-01-25.md"
   },
   {
     "date": "1999-07-08",
-    "description": "Loi constitutionnelle n° 99-569 du 8 juillet 1999 - Parité hommes-femmes",
-    "nb_articles": 93,
-    "file": "versions/constitution_1999-07-08.md"
+    "description": "Version du 1999-07-08",
+    "nb_articles": 91,
+    "file": "clean_versions/constitution_1999-07-08.md"
   },
   {
     "date": "2000-10-02",
-    "description": "Loi constitutionnelle n° 2000-964 du 2 octobre 2000 - Quinquennat",
-    "nb_articles": 93,
-    "file": "versions/constitution_2000-10-02.md"
+    "description": "Version du 2000-10-02",
+    "nb_articles": 92,
+    "file": "clean_versions/constitution_2000-10-02.md"
   },
   {
     "date": "2003-03-25",
-    "description": "Loi constitutionnelle n° 2003-276 du 25 mars 2003 - Décentralisation",
-    "nb_articles": 93,
-    "file": "versions/constitution_2003-03-25.md"
+    "description": "Version du 2003-03-25",
+    "nb_articles": 92,
+    "file": "clean_versions/constitution_2003-03-25.md"
   },
   {
     "date": "2003-03-28",
-    "description": "Loi constitutionnelle n° 2003-277 du 28 mars 2003 - Mandat d'arrêt européen",
-    "nb_articles": 93,
-    "file": "versions/constitution_2003-03-28.md"
+    "description": "Version du 2003-03-28",
+    "nb_articles": 92,
+    "file": "clean_versions/constitution_2003-03-28.md"
   },
   {
     "date": "2005-03-01",
-    "description": "Loi constitutionnelle n° 2005-204 du 1er mars 2005 - Charte de l'environnement",
-    "nb_articles": 93,
-    "file": "versions/constitution_2005-03-01.md"
+    "description": "Version du 2005-03-01",
+    "nb_articles": 98,
+    "file": "clean_versions/constitution_2005-03-01.md"
   },
   {
     "date": "2007-02-23",
-    "description": "Loi constitutionnelle n° 2007-237 du 23 février 2007 - Abolition peine de mort",
-    "nb_articles": 93,
-    "file": "versions/constitution_2007-02-23.md"
+    "description": "Version du 2007-02-23",
+    "nb_articles": 99,
+    "file": "clean_versions/constitution_2007-02-23.md"
   },
   {
     "date": "2008-02-04",
-    "description": "Loi constitutionnelle n° 2008-103 du 4 février 2008 - Droit d'amendement",
-    "nb_articles": 93,
-    "file": "versions/constitution_2008-02-04.md"
+    "description": "Version du 2008-02-04",
+    "nb_articles": 100,
+    "file": "clean_versions/constitution_2008-02-04.md"
   },
   {
     "date": "2008-07-23",
-    "description": "Loi constitutionnelle n° 2008-724 du 23 juillet 2008 - Modernisation des institutions (révision majeure)",
+    "description": "Version du 2008-07-23",
     "nb_articles": 89,
-    "file": "versions/constitution_2008-07-23.md"
+    "file": "clean_versions/constitution_2008-07-23.md"
   },
   {
     "date": "2011-07-13",
-    "description": "Loi constitutionnelle n° 2011-410 du 13 juillet 2011 - Équilibre des finances publiques",
-    "nb_articles": 93,
-    "file": "versions/constitution_2011-07-13.md"
+    "description": "Version du 2011-07-13",
+    "nb_articles": 89,
+    "file": "clean_versions/constitution_2011-07-13.md"
   },
   {
     "date": "2012-11-09",
-    "description": "Loi constitutionnelle n° 2012-1311 du 9 novembre 2012 - TSCG",
-    "nb_articles": 93,
-    "file": "versions/constitution_2012-11-09.md"
+    "description": "Version du 2012-11-09",
+    "nb_articles": 89,
+    "file": "clean_versions/constitution_2012-11-09.md"
   },
   {
     "date": "2013-03-13",
-    "description": "Loi constitutionnelle n° 2013-239 du 13 mars 2013 - Cumul des mandats",
-    "nb_articles": 93,
-    "file": "versions/constitution_2013-03-13.md"
+    "description": "Version du 2013-03-13",
+    "nb_articles": 89,
+    "file": "clean_versions/constitution_2013-03-13.md"
   },
   {
     "date": "2024-03-08",
-    "description": "Loi constitutionnelle n° 2024-200 du 8 mars 2024 - Liberté d'accès à l'IVG",
+    "description": "Version du 2024-03-08",
     "nb_articles": 89,
-    "file": "versions/constitution_2024-03-08.md"
+    "file": "clean_versions/constitution_2024-03-08.md"
   }
 ]

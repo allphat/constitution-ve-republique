@@ -3,163 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Constitution Ve République • 1958-2024</title>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <title>Évolution de la Constitution de la Ve République</title>
+  <script src="https://cdn.jsdelivr.net/npm/vis-timeline@latest/standalone/umd/vis-timeline.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@latest/styles/vis-timeline-graph2d.min.css">
-  <script src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
   <style>
-    :root {
-      --bg: #f8f9fc;
-      --card: #ffffff;
-      --text: #222;
-      --accent: #0033A0;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0f172a;
-        --card: #1e2937;
-        --text: #e2e8f0;
-      }
-    }
-    body {
-      font-family: system-ui, -apple-system, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-    .container { max-width: 1250px; margin: 0 auto; }
-    h1 { 
-      color: var(--accent); 
-      text-align: center; 
-      font-size: 2.9em; 
-      margin-bottom: 8px;
-    }
-    .subtitle { text-align: center; color: #666; font-size: 1.35em; margin-bottom: 40px; }
-    .info {
-      background: var(--card);
-      padding: 20px;
-      border-radius: 16px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-      margin-bottom: 45px;
-      text-align: center;
-    }
-    #timeline { 
-      height: 500px; 
-      border: 1px solid #ddd; 
-      background: var(--card); 
-      border-radius: 16px; 
-      margin-bottom: 60px; 
-      box-shadow: 0 6px 25px rgba(0,0,0,0.1);
-    }
-    canvas { 
-      background: var(--card); 
-      border-radius: 16px; 
-      padding: 25px; 
-      box-shadow: 0 6px 25px rgba(0,0,0,0.1);
-    }
-    .link {
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 500;
-    }
-    .link:hover { text-decoration: underline; }
+    body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 20px; }
+    h1 { text-align: center; color: #60a5fa; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    .controls { display: flex; gap: 15px; flex-wrap: wrap; margin: 20px 0; justify-content: center; }
+    select, button { padding: 10px 15px; font-size: 16px; border-radius: 8px; background: #1e2937; color: #e2e8f0; border: 1px solid #334155; }
+    button { background: #3b82f6; cursor: pointer; }
+    button:hover { background: #2563eb; }
+    .diff-container { background: #1e2937; padding: 20px; border-radius: 12px; margin-top: 30px; white-space: pre-wrap; font-family: monospace; line-height: 1.5; }
+    .added { background: #14532d; color: #86efac; }
+    .removed { background: #7f1d1d; color: #fda4af; }
+    .timeline, .chart-container { margin: 30px 0; background: #1e2937; padding: 20px; border-radius: 12px; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>📜 Constitution de la Ve République</h1>
-    <p class="subtitle">Évolution complète des 25 révisions constitutionnelles (1958 → 2024)</p>
+    <h1>Évolution de la Constitution de la Ve République (1958 → aujourd’hui)</h1>
 
-    <div class="info">
-      <strong>25 versions officielles</strong> • Suivi Git avec tags • Données extraites de Legifrance
+    <div class="controls">
+      <select id="date1"></select>
+      <span>vs</span>
+      <select id="date2"></select>
+      <button onclick="showDiff()">Voir les différences</button>
     </div>
 
-    <h2>📅 Timeline interactive — Cliquez sur une date pour lire le texte</h2>
-    <div id="timeline"></div>
+    <div class="timeline" id="timeline"></div>
+    <div class="chart-container">
+      <canvas id="articleChart"></canvas>
+    </div>
 
-    <h2>📊 Évolution du nombre d’articles</h2>
-    <canvas id="chartArticles" height="170"></canvas>
-
-    <p style="text-align:center; margin-top:60px; color:#555;">
-      <a href="https://github.com/allphat/constitution-ve-republique" target="_blank" class="link">
-        → Voir le repository GitHub complet
-      </a>
-    </p>
+    <div id="diffResult" class="diff-container" style="display:none;"></div>
   </div>
 
+  <script src="metadata.json"></script>
   <script>
-    fetch('metadata.json')
-      .then(r => r.json())
-      .then(data => {
-        // Timeline avec liens cliquables
-        const items = data.map((v, i) => ({
-          id: i,
-          content: `<strong>${v.date}</strong><br>${v.description.length > 65 ? v.description.substring(0,62)+'...' : v.description}`,
-          start: v.date,
-          title: v.description,
-          link: `https://github.com/allphat/constitution-ve-republique/blob/master/versions/constitution_${v.date}.md`
-        }));
+    const versions = metadata; // chargé depuis metadata.json
 
-        const timeline = new vis.Timeline(
-          document.getElementById('timeline'),
-          new vis.DataSet(items),
-          {
-            zoomable: true,
-            horizontalScroll: true,
-            height: '480px',
-            min: '1950-01-01',
-            max: '2030-12-31',
-            zoomMin: 1000 * 60 * 60 * 24 * 365 * 1.5,
-            tooltip: { followMouse: true }
-          }
-        );
+    // Remplir les selecteurs
+    const select1 = document.getElementById('date1');
+    const select2 = document.getElementById('date2');
+    versions.forEach(v => {
+      const opt1 = new Option(v.description, v.date);
+      const opt2 = new Option(v.description, v.date);
+      select1.add(opt1);
+      select2.add(opt2);
+    });
+    select2.selectedIndex = versions.length - 1; // dernière version par défaut
 
-        // Ouvrir le lien quand on clique sur un item
-        timeline.on('click', function(props) {
-          if (props.item !== null) {
-            const item = items[props.item];
-            if (item && item.link) {
-              window.open(item.link, '_blank');
-            }
-          }
-        });
+    // Timeline
+    const items = new vis.DataSet(versions.map(v => ({
+      id: v.date,
+      content: v.description,
+      start: v.date,
+      title: `${v.nb_articles} articles`
+    })));
 
-        // Graphique
-        new Chart(document.getElementById('chartArticles'), {
-          type: 'line',
-          data: {
-            labels: data.map(v => v.date),
-            datasets: [{
-              label: "Nombre d'articles",
-              data: data.map(v => v.nb_articles || 0),
-              borderColor: '#0033A0',
-              backgroundColor: 'rgba(0, 51, 160, 0.15)',
-              tension: 0.4,
-              pointRadius: 7,
-              pointHoverRadius: 10
-            }]
-          },
-          options: {
-            responsive: true,
-            plugins: {
-              legend: { position: 'top', labels: { font: { size: 15 } } },
-              tooltip: { mode: 'index', intersect: false }
-            },
-            scales: {
-              y: { beginAtZero: true, title: { display: true, text: "Nombre d'articles" } }
-            }
-          }
-        });
-      })
-      .catch(err => {
-        console.error(err);
-        document.getElementById('timeline').innerHTML = 
-          `<p style="color:red; text-align:center; padding:100px; font-size:1.3em;">
-            Erreur de chargement des données
-          </p>`;
-      });
+    const timeline = new vis.Timeline(document.getElementById('timeline'), items, {
+      zoomMin: 1000 * 60 * 60 * 24 * 365 * 5, // ~5 ans
+      zoomMax: 1000 * 60 * 60 * 24 * 365 * 70,
+      min: '1958-01-01',
+      max: '2025-12-31'
+    });
+
+    timeline.on('click', function(props) {
+      if (props.item) {
+        window.open(`https://github.com/allphat/constitution-ve-republique/blob/master/clean_versions/constitution_${props.item}.md`, '_blank');
+      }
+    });
+
+    // Graphique évolution du nombre d'articles
+    new Chart(document.getElementById('articleChart'), {
+      type: 'line',
+      data: {
+        labels: versions.map(v => v.date),
+        datasets: [{
+          label: 'Nombre d’articles',
+          data: versions.map(v => v.nb_articles),
+          borderColor: '#60a5fa',
+          tension: 0.3,
+          fill: false
+        }]
+      },
+      options: { responsive: true, scales: { y: { beginAtZero: true } } }
+    });
+
+    // Fonction Diff
+    async function showDiff() {
+      const date1 = document.getElementById('date1').value;
+      const date2 = document.getElementById('date2').value;
+
+      if (date1 === date2) {
+        alert("Choisissez deux dates différentes");
+        return;
+      }
+
+      const res1 = await fetch(`../clean_versions/constitution_${date1}.md`);
+      const res2 = await fetch(`../clean_versions/constitution_${date2}.md`);
+      const text1 = await res1.text();
+      const text2 = await res2.text();
+
+      // Diff simple ligne par ligne
+      const lines1 = text1.split('\n');
+      const lines2 = text2.split('\n');
+
+      let diffHtml = `<h2>Différence entre ${date1} et ${date2}</h2>`;
+
+      const maxLines = Math.max(lines1.length, lines2.length);
+      for (let i = 0; i < maxLines; i++) {
+        const line1 = lines1[i] || '';
+        const line2 = lines2[i] || '';
+
+        if (line1 === line2) {
+          diffHtml += `<div>${line1}</div>`;
+        } else {
+          if (line1) diffHtml += `<div class="removed">- ${line1}</div>`;
+          if (line2) diffHtml += `<div class="added">+ ${line2}</div>`;
+        }
+      }
+
+      document.getElementById('diffResult').innerHTML = diffHtml;
+      document.getElementById('diffResult').style.display = 'block';
+    }
   </script>
 </body>
 </html>
