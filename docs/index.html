@@ -3,54 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Constitution de la Ve République • 1958-2024</title>
+  <title>Constitution Ve République • 1958-2024</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@latest/styles/vis-timeline-graph2d.min.css">
   <script src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
   <style>
-    body { 
-      font-family: system-ui, -apple-system, sans-serif; 
-      margin:0; padding:20px; 
-      background: linear-gradient(135deg, #f5f7fa, #e4e9f2); 
-      color:#222; 
+    :root {
+      --bg: #f8f9fc;
+      --card: #ffffff;
+      --text: #222;
+      --accent: #0033A0;
     }
-    .container { max-width: 1200px; margin: 0 auto; }
-    h1 { color: #0033A0; text-align: center; margin-bottom: 8px; font-size: 2.8em; }
-    .subtitle { text-align: center; color: #555; font-size: 1.3em; margin-bottom: 40px; }
-    .info { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 40px; text-align: center; }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card: #1e2937;
+        --text: #e2e8f0;
+      }
+    }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container { max-width: 1250px; margin: 0 auto; }
+    h1 { 
+      color: var(--accent); 
+      text-align: center; 
+      font-size: 2.9em; 
+      margin-bottom: 8px;
+    }
+    .subtitle { text-align: center; color: #666; font-size: 1.35em; margin-bottom: 40px; }
+    .info {
+      background: var(--card);
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      margin-bottom: 45px;
+      text-align: center;
+    }
     #timeline { 
-      height: 480px; 
+      height: 500px; 
       border: 1px solid #ddd; 
-      background: white; 
-      border-radius: 12px; 
-      margin-bottom: 50px; 
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08); 
+      background: var(--card); 
+      border-radius: 16px; 
+      margin-bottom: 60px; 
+      box-shadow: 0 6px 25px rgba(0,0,0,0.1);
     }
     canvas { 
-      background: white; 
-      border-radius: 12px; 
-      padding: 20px; 
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08); 
+      background: var(--card); 
+      border-radius: 16px; 
+      padding: 25px; 
+      box-shadow: 0 6px 25px rgba(0,0,0,0.1);
     }
+    .link {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .link:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>📜 Constitution de la Ve République</h1>
-    <p class="subtitle">Histoire complète des 25 révisions constitutionnelles (1958 → 2024)</p>
+    <p class="subtitle">Évolution complète des 25 révisions constitutionnelles (1958 → 2024)</p>
 
     <div class="info">
       <strong>25 versions officielles</strong> • Suivi Git avec tags • Données extraites de Legifrance
     </div>
 
-    <h2>📅 Timeline interactive des révisions</h2>
+    <h2>📅 Timeline interactive — Cliquez sur une date pour lire le texte</h2>
     <div id="timeline"></div>
 
-    <h2>📊 Évolution du nombre d’articles dans la Constitution</h2>
-    <canvas id="chartArticles" height="160"></canvas>
+    <h2>📊 Évolution du nombre d’articles</h2>
+    <canvas id="chartArticles" height="170"></canvas>
 
-    <p style="text-align:center; margin-top:50px; color:#444;">
-      <a href="https://github.com/allphat/constitution-ve-republique" target="_blank">→ Voir le repository GitHub complet</a>
+    <p style="text-align:center; margin-top:60px; color:#555;">
+      <a href="https://github.com/allphat/constitution-ve-republique" target="_blank" class="link">
+        → Voir le repository GitHub complet
+      </a>
     </p>
   </div>
 
@@ -58,12 +93,13 @@
     fetch('metadata.json')
       .then(r => r.json())
       .then(data => {
-        // === TIMELINE CORRIGÉE ===
+        // Timeline avec liens cliquables
         const items = data.map((v, i) => ({
           id: i,
-          content: `<strong>${v.date}</strong><br>${v.description.length > 68 ? v.description.substring(0,65)+'...' : v.description}`,
+          content: `<strong>${v.date}</strong><br>${v.description.length > 65 ? v.description.substring(0,62)+'...' : v.description}`,
           start: v.date,
-          title: v.description
+          title: v.description,
+          link: `https://github.com/allphat/constitution-ve-republique/blob/master/versions/constitution_${v.date}.md`
         }));
 
         const timeline = new vis.Timeline(
@@ -72,19 +108,25 @@
           {
             zoomable: true,
             horizontalScroll: true,
-            height: '460px',
-            min: '1950-01-01',     // ← Fix important
-            max: '2030-12-31',     // ← Fix important
-            zoomMin: 1000 * 60 * 60 * 24 * 365 * 2,   // zoom minimum ~2 ans
-            zoomMax: 1000 * 60 * 60 * 24 * 365 * 100, // zoom maximum ~100 ans
+            height: '480px',
+            min: '1950-01-01',
+            max: '2030-12-31',
+            zoomMin: 1000 * 60 * 60 * 24 * 365 * 1.5,
             tooltip: { followMouse: true }
           }
         );
 
-        // Optionnel : centrer automatiquement sur la première et dernière version
-        timeline.setWindow('1958-01-01', '2025-12-31');
+        // Ouvrir le lien quand on clique sur un item
+        timeline.on('click', function(props) {
+          if (props.item !== null) {
+            const item = items[props.item];
+            if (item && item.link) {
+              window.open(item.link, '_blank');
+            }
+          }
+        });
 
-        // === GRAPHIQUE ===
+        // Graphique
         new Chart(document.getElementById('chartArticles'), {
           type: 'line',
           data: {
@@ -93,22 +135,30 @@
               label: "Nombre d'articles",
               data: data.map(v => v.nb_articles || 0),
               borderColor: '#0033A0',
-              backgroundColor: 'rgba(0, 51, 160, 0.12)',
-              tension: 0.35,
-              pointRadius: 6
+              backgroundColor: 'rgba(0, 51, 160, 0.15)',
+              tension: 0.4,
+              pointRadius: 7,
+              pointHoverRadius: 10
             }]
           },
           options: {
             responsive: true,
-            plugins: { legend: { position: 'top' } },
-            scales: { y: { beginAtZero: true } }
+            plugins: {
+              legend: { position: 'top', labels: { font: { size: 15 } } },
+              tooltip: { mode: 'index', intersect: false }
+            },
+            scales: {
+              y: { beginAtZero: true, title: { display: true, text: "Nombre d'articles" } }
+            }
           }
         });
       })
       .catch(err => {
-        console.error("Erreur :", err);
+        console.error(err);
         document.getElementById('timeline').innerHTML = 
-          "<p style='color:red; text-align:center; padding:80px; font-size:1.2em;'>Erreur : Impossible de charger metadata.json</p>";
+          `<p style="color:red; text-align:center; padding:100px; font-size:1.3em;">
+            Erreur de chargement des données
+          </p>`;
       });
   </script>
 </body>
