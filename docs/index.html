@@ -8,38 +8,87 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@latest/styles/vis-timeline-graph2d.min.css">
   <style>
-    body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 20px; }
-    h1 { text-align: center; color: #60a5fa; }
+    body { 
+      font-family: system-ui, sans-serif; 
+      background: #f8fafc; 
+      color: #1e2937; 
+      margin: 0; 
+      padding: 20px; 
+      line-height: 1.6;
+    }
+    h1 { 
+      text-align: center; 
+      color: #1e40af; 
+      margin-bottom: 30px;
+    }
     .container { max-width: 1200px; margin: 0 auto; }
-    .controls { display: flex; gap: 15px; flex-wrap: wrap; margin: 20px 0; justify-content: center; align-items: center; }
-    select, button { padding: 10px 15px; font-size: 16px; border-radius: 8px; background: #1e2937; color: #e2e8f0; border: 1px solid #334155; }
-    button { background: #3b82f6; cursor: pointer; font-weight: bold; }
-    button:hover { background: #2563eb; }
-    .diff-container { 
-      background: #1e2937; 
+    .controls { 
+      background: white; 
       padding: 20px; 
       border-radius: 12px; 
-      margin-top: 30px; 
-      font-family: monospace; 
-      line-height: 1.6; 
-      max-height: 70vh; 
-      overflow-y: auto;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      display: flex; 
+      gap: 15px; 
+      flex-wrap: wrap; 
+      justify-content: center; 
+      align-items: center; 
+      margin: 20px 0;
     }
-    .added { background: #14532d; color: #86efac; padding: 2px 4px; }
-    .removed { background: #7f1d1d; color: #fda4af; padding: 2px 4px; }
-    .timeline, .chart-container { margin: 30px 0; background: #1e2937; padding: 20px; border-radius: 12px; }
+    select, button { 
+      padding: 12px 18px; 
+      font-size: 16px; 
+      border-radius: 8px; 
+      border: 1px solid #cbd5e1;
+    }
+    button { 
+      background: #3b82f6; 
+      color: white; 
+      font-weight: bold; 
+      cursor: pointer; 
+      border: none;
+    }
+    button:hover { background: #2563eb; }
+    .summary { 
+      font-size: 1.2em; 
+      text-align: center; 
+      margin: 15px 0; 
+      font-weight: bold;
+    }
+    .diff-container { 
+      background: white; 
+      padding: 25px; 
+      border-radius: 12px; 
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      font-family: monospace; 
+      line-height: 1.7; 
+      max-height: 70vh; 
+      overflow-y: auto; 
+      margin-top: 20px;
+      border: 1px solid #e2e8f0;
+    }
+    .added { background: #dcfce7; color: #166534; padding: 2px 4px; }
+    .removed { background: #fee2e2; color: #991b1b; padding: 2px 4px; }
+    .timeline, .chart-container { 
+      margin: 30px 0; 
+      background: white; 
+      padding: 20px; 
+      border-radius: 12px; 
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Évolution de la Constitution de la Ve République (1958 → 2024)</h1>
+    <h1>Évolution de la Constitution de la Ve République (1958 — 2024)</h1>
 
     <div class="controls">
       <select id="date1"></select>
-      <span style="font-size:1.2em;">vs</span>
+      <span style="font-size:1.5em; color:#64748b;">vs</span>
       <select id="date2"></select>
-      <button onclick="showDiff()">Voir les différences</button>
+      <button onclick="compareVersions()">Comparer ces deux versions</button>
     </div>
+
+    <div id="summary" class="summary"></div>
 
     <div class="timeline" id="timeline"></div>
     <div class="chart-container">
@@ -50,31 +99,35 @@
   </div>
 
   <script>
-    // Chargement des métadonnées
     fetch('metadata.json')
       .then(r => r.json())
       .then(versions => {
-        // Remplir les sélecteurs
-        const sel1 = document.getElementById('date1');
-        const sel2 = document.getElementById('date2');
-        versions.forEach(v => {
-          sel1.add(new Option(v.description, v.date));
-          sel2.add(new Option(v.description, v.date));
+
+        // Remplir les listes déroulantes
+        const s1 = document.getElementById('date1');
+        const s2 = document.getElementById('date2');
+        versions.forEach((v,i) => {
+          s1.add(new Option(v.description, v.date));
+          s2.add(new Option(v.description, v.date));
         });
-        sel2.selectedIndex = versions.length - 1;
+        s2.selectedIndex = versions.length - 1;
 
         // Timeline
         const items = new vis.DataSet(versions.map(v => ({
           id: v.date,
-          content: v.description.split(' — ')[1] || v.description,
-          start: v.date,
-          title: `${v.nb_articles} articles`
+          content: v.description,
+          start: v.date
         })));
 
-        new vis.Timeline(document.getElementById('timeline'), items, {
-          zoomMin: 1000*60*60*24*365*3,
+        const timeline = new vis.Timeline(document.getElementById('timeline'), items, {
           min: '1958-01-01',
           max: '2025-12-31'
+        });
+
+        timeline.on('click', (props) => {
+          if (props.item) {
+            window.open(`https://github.com/allphat/constitution-ve-republique/blob/master/clean_versions/constitution_${props.item}.md`, '_blank');
+          }
         });
 
         // Graphique
@@ -82,42 +135,47 @@
           type: 'line',
           data: {
             labels: versions.map(v => v.date),
-            datasets: [{
-              label: 'Nombre d’articles',
+            datasets: [{ 
+              label: 'Nombre d’articles', 
               data: versions.map(v => v.nb_articles),
-              borderColor: '#60a5fa',
+              borderColor: '#1e40af',
               tension: 0.3
             }]
           },
           options: { responsive: true }
         });
 
-        // Fonction Diff (qui pointe maintenant vers clean_versions/)
-        window.showDiff = async () => {
+        // Comparaison
+        window.compareVersions = async () => {
           const d1 = document.getElementById('date1').value;
           const d2 = document.getElementById('date2').value;
 
-          if (d1 === d2) return alert("Choisissez deux dates différentes");
+          if (d1 === d2) return alert("Sélectionnez deux dates différentes");
 
-          const t1 = await (await fetch(`../clean_versions/constitution_${d1}.md`)).text();
-          const t2 = await (await fetch(`../clean_versions/constitution_${d2}.md`)).text();
+          const text1 = await (await fetch(`../clean_versions/constitution_${d1}.md`)).text();
+          const text2 = await (await fetch(`../clean_versions/constitution_${d2}.md`)).text();
 
-          const lines1 = t1.split('\n');
-          const lines2 = t2.split('\n');
+          const lines1 = text1.split('\n');
+          const lines2 = text2.split('\n');
 
+          let added = 0, removed = 0;
           let html = `<h2>Différence entre ${d1} et ${d2}</h2>`;
 
           const max = Math.max(lines1.length, lines2.length);
           for (let i = 0; i < max; i++) {
             const l1 = lines1[i] || '';
             const l2 = lines2[i] || '';
+
             if (l1 === l2) {
               html += `<div>${l1}</div>`;
             } else {
-              if (l1) html += `<div class="removed">- ${l1}</div>`;
-              if (l2) html += `<div class="added">+ ${l2}</div>`;
+              if (l1) { html += `<div class="removed">- ${l1}</div>`; removed++; }
+              if (l2) { html += `<div class="added">+ ${l2}</div>`; added++; }
             }
           }
+
+          document.getElementById('summary').innerHTML = 
+            `Ajoutés : <strong>${added}</strong> | Supprimés : <strong>${removed}</strong>`;
 
           document.getElementById('diffResult').innerHTML = html;
           document.getElementById('diffResult').style.display = 'block';
