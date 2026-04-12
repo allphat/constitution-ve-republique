@@ -8,22 +8,39 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@latest/styles/vis-timeline-graph2d.min.css">
   <script src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
   <style>
-    body { font-family: system-ui, -apple-system, sans-serif; margin:0; padding:20px; background: linear-gradient(135deg, #f5f7fa, #e4e9f2); color:#222; }
+    body { 
+      font-family: system-ui, -apple-system, sans-serif; 
+      margin:0; padding:20px; 
+      background: linear-gradient(135deg, #f5f7fa, #e4e9f2); 
+      color:#222; 
+    }
     .container { max-width: 1200px; margin: 0 auto; }
     h1 { color: #0033A0; text-align: center; margin-bottom: 8px; font-size: 2.8em; }
     .subtitle { text-align: center; color: #555; font-size: 1.3em; margin-bottom: 40px; }
     .info { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 40px; text-align: center; }
-    #timeline { height: 460px; border: 1px solid #ddd; background: white; border-radius: 12px; margin-bottom: 50px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
-    canvas { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+    #timeline { 
+      height: 480px; 
+      border: 1px solid #ddd; 
+      background: white; 
+      border-radius: 12px; 
+      margin-bottom: 50px; 
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08); 
+    }
+    canvas { 
+      background: white; 
+      border-radius: 12px; 
+      padding: 20px; 
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08); 
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>📜 Constitution de la Ve République</h1>
-    <p class="subtitle">Histoire complète des révisions constitutionnelles (1958 → 2024)</p>
+    <p class="subtitle">Histoire complète des 25 révisions constitutionnelles (1958 → 2024)</p>
 
     <div class="info">
-      <strong>25 versions officielles</strong> • Suivi Git avec tags précis • Données extraites de Legifrance
+      <strong>25 versions officielles</strong> • Suivi Git avec tags • Données extraites de Legifrance
     </div>
 
     <h2>📅 Timeline interactive des révisions</h2>
@@ -38,28 +55,36 @@
   </div>
 
   <script>
-    fetch('metadata.json')   /* ← Correction ici : chemin absolu depuis la racine du site */
-      .then(r => {
-        if (!r.ok) throw new Error("metadata.json non trouvé");
-        return r.json();
-      })
+    fetch('metadata.json')
+      .then(r => r.json())
       .then(data => {
-        // Timeline
+        // === TIMELINE CORRIGÉE ===
         const items = data.map((v, i) => ({
           id: i,
-          content: `<strong>${v.date}</strong><br>${v.description.length > 70 ? v.description.substring(0,67)+'...' : v.description}`,
+          content: `<strong>${v.date}</strong><br>${v.description.length > 68 ? v.description.substring(0,65)+'...' : v.description}`,
           start: v.date,
           title: v.description
         }));
 
-        new vis.Timeline(document.getElementById('timeline'), new vis.DataSet(items), {
-          zoomable: true,
-          horizontalScroll: true,
-          height: '440px',
-          tooltip: { followMouse: true }
-        });
+        const timeline = new vis.Timeline(
+          document.getElementById('timeline'),
+          new vis.DataSet(items),
+          {
+            zoomable: true,
+            horizontalScroll: true,
+            height: '460px',
+            min: '1950-01-01',     // ← Fix important
+            max: '2030-12-31',     // ← Fix important
+            zoomMin: 1000 * 60 * 60 * 24 * 365 * 2,   // zoom minimum ~2 ans
+            zoomMax: 1000 * 60 * 60 * 24 * 365 * 100, // zoom maximum ~100 ans
+            tooltip: { followMouse: true }
+          }
+        );
 
-        // Graphique
+        // Optionnel : centrer automatiquement sur la première et dernière version
+        timeline.setWindow('1958-01-01', '2025-12-31');
+
+        // === GRAPHIQUE ===
         new Chart(document.getElementById('chartArticles'), {
           type: 'line',
           data: {
@@ -82,7 +107,8 @@
       })
       .catch(err => {
         console.error("Erreur :", err);
-        document.getElementById('timeline').innerHTML = "<p style='color:red; text-align:center; padding:50px;'>Erreur : Impossible de charger metadata.json</p>";
+        document.getElementById('timeline').innerHTML = 
+          "<p style='color:red; text-align:center; padding:80px; font-size:1.2em;'>Erreur : Impossible de charger metadata.json</p>";
       });
   </script>
 </body>
