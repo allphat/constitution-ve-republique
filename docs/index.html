@@ -8,50 +8,13 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@latest/styles/vis-timeline-graph2d.min.css">
   <script src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
   <style>
-    body {
-      font-family: system-ui, -apple-system, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background: linear-gradient(135deg, #f5f7fa, #e4e9f2);
-      color: #222;
-    }
+    body { font-family: system-ui, -apple-system, sans-serif; margin:0; padding:20px; background: linear-gradient(135deg, #f5f7fa, #e4e9f2); color:#222; }
     .container { max-width: 1200px; margin: 0 auto; }
-    h1 { 
-      color: #0033A0; 
-      text-align: center; 
-      margin-bottom: 8px;
-      font-size: 2.8em;
-    }
-    .subtitle {
-      text-align: center;
-      color: #555;
-      font-size: 1.3em;
-      margin-bottom: 40px;
-    }
-    .info {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      margin-bottom: 40px;
-      text-align: center;
-    }
-    #timeline { 
-      height: 460px; 
-      border: 1px solid #ddd; 
-      background: white; 
-      border-radius: 12px; 
-      margin-bottom: 50px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    }
-    canvas { 
-      background: white; 
-      border-radius: 12px; 
-      padding: 20px; 
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    }
-    a { color: #0033A0; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    h1 { color: #0033A0; text-align: center; margin-bottom: 8px; font-size: 2.8em; }
+    .subtitle { text-align: center; color: #555; font-size: 1.3em; margin-bottom: 40px; }
+    .info { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 40px; text-align: center; }
+    #timeline { height: 460px; border: 1px solid #ddd; background: white; border-radius: 12px; margin-bottom: 50px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+    canvas { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
   </style>
 </head>
 <body>
@@ -70,34 +33,31 @@
     <canvas id="chartArticles" height="160"></canvas>
 
     <p style="text-align:center; margin-top:50px; color:#444;">
-      <a href="https://github.com/allphat/constitution-ve-republique" target="_blank">
-        → Voir le repository GitHub complet
-      </a>
+      <a href="https://github.com/allphat/constitution-ve-republique" target="_blank">→ Voir le repository GitHub complet</a>
     </p>
   </div>
 
   <script>
-    fetch('../metadata.json')
-      .then(r => r.json())
+    fetch('metadata.json')   /* ← Correction ici : chemin absolu depuis la racine du site */
+      .then(r => {
+        if (!r.ok) throw new Error("metadata.json non trouvé");
+        return r.json();
+      })
       .then(data => {
         // Timeline
         const items = data.map((v, i) => ({
           id: i,
-          content: `<strong>${v.date}</strong><br>${v.description.length > 65 ? v.description.substring(0,62)+'...' : v.description}`,
+          content: `<strong>${v.date}</strong><br>${v.description.length > 70 ? v.description.substring(0,67)+'...' : v.description}`,
           start: v.date,
           title: v.description
         }));
 
-        new vis.Timeline(
-          document.getElementById('timeline'),
-          new vis.DataSet(items),
-          {
-            zoomable: true,
-            horizontalScroll: true,
-            height: '440px',
-            tooltip: { followMouse: true }
-          }
-        );
+        new vis.Timeline(document.getElementById('timeline'), new vis.DataSet(items), {
+          zoomable: true,
+          horizontalScroll: true,
+          height: '440px',
+          tooltip: { followMouse: true }
+        });
 
         // Graphique
         new Chart(document.getElementById('chartArticles'), {
@@ -110,26 +70,20 @@
               borderColor: '#0033A0',
               backgroundColor: 'rgba(0, 51, 160, 0.12)',
               tension: 0.35,
-              pointRadius: 6,
-              pointHoverRadius: 9
+              pointRadius: 6
             }]
           },
           options: {
             responsive: true,
-            plugins: {
-              legend: { position: 'top', labels: { font: { size: 14 } } },
-              tooltip: { mode: 'index', intersect: false }
-            },
-            scales: {
-              y: { 
-                beginAtZero: true,
-                title: { display: true, text: "Nombre d'articles dans le texte" }
-              }
-            }
+            plugins: { legend: { position: 'top' } },
+            scales: { y: { beginAtZero: true } }
           }
         });
       })
-      .catch(err => console.error("Erreur de chargement des données :", err));
+      .catch(err => {
+        console.error("Erreur :", err);
+        document.getElementById('timeline').innerHTML = "<p style='color:red; text-align:center; padding:50px;'>Erreur : Impossible de charger metadata.json</p>";
+      });
   </script>
 </body>
 </html>
