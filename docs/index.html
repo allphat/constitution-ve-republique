@@ -11,23 +11,32 @@
     body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 20px; }
     h1 { text-align: center; color: #60a5fa; }
     .container { max-width: 1200px; margin: 0 auto; }
-    .controls { display: flex; gap: 15px; flex-wrap: wrap; margin: 20px 0; justify-content: center; }
+    .controls { display: flex; gap: 15px; flex-wrap: wrap; margin: 20px 0; justify-content: center; align-items: center; }
     select, button { padding: 10px 15px; font-size: 16px; border-radius: 8px; background: #1e2937; color: #e2e8f0; border: 1px solid #334155; }
-    button { background: #3b82f6; cursor: pointer; }
+    button { background: #3b82f6; cursor: pointer; font-weight: bold; }
     button:hover { background: #2563eb; }
-    .diff-container { background: #1e2937; padding: 20px; border-radius: 12px; margin-top: 30px; white-space: pre-wrap; font-family: monospace; line-height: 1.5; }
-    .added { background: #14532d; color: #86efac; }
-    .removed { background: #7f1d1d; color: #fda4af; }
+    .diff-container { 
+      background: #1e2937; 
+      padding: 20px; 
+      border-radius: 12px; 
+      margin-top: 30px; 
+      font-family: monospace; 
+      line-height: 1.6; 
+      max-height: 70vh; 
+      overflow-y: auto;
+    }
+    .added { background: #14532d; color: #86efac; padding: 2px 4px; }
+    .removed { background: #7f1d1d; color: #fda4af; padding: 2px 4px; }
     .timeline, .chart-container { margin: 30px 0; background: #1e2937; padding: 20px; border-radius: 12px; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Évolution de la Constitution de la Ve République (1958 → aujourd’hui)</h1>
+    <h1>Évolution de la Constitution de la Ve République (1958 → 2024)</h1>
 
     <div class="controls">
       <select id="date1"></select>
-      <span>vs</span>
+      <span style="font-size:1.2em;">vs</span>
       <select id="date2"></select>
       <button onclick="showDiff()">Voir les différences</button>
     </div>
@@ -40,95 +49,80 @@
     <div id="diffResult" class="diff-container" style="display:none;"></div>
   </div>
 
-  <script src="metadata.json"></script>
   <script>
-    const versions = metadata; // chargé depuis metadata.json
+    // Chargement des métadonnées
+    fetch('metadata.json')
+      .then(r => r.json())
+      .then(versions => {
+        // Remplir les sélecteurs
+        const sel1 = document.getElementById('date1');
+        const sel2 = document.getElementById('date2');
+        versions.forEach(v => {
+          sel1.add(new Option(v.description, v.date));
+          sel2.add(new Option(v.description, v.date));
+        });
+        sel2.selectedIndex = versions.length - 1;
 
-    // Remplir les selecteurs
-    const select1 = document.getElementById('date1');
-    const select2 = document.getElementById('date2');
-    versions.forEach(v => {
-      const opt1 = new Option(v.description, v.date);
-      const opt2 = new Option(v.description, v.date);
-      select1.add(opt1);
-      select2.add(opt2);
-    });
-    select2.selectedIndex = versions.length - 1; // dernière version par défaut
+        // Timeline
+        const items = new vis.DataSet(versions.map(v => ({
+          id: v.date,
+          content: v.description.split(' — ')[1] || v.description,
+          start: v.date,
+          title: `${v.nb_articles} articles`
+        })));
 
-    // Timeline
-    const items = new vis.DataSet(versions.map(v => ({
-      id: v.date,
-      content: v.description,
-      start: v.date,
-      title: `${v.nb_articles} articles`
-    })));
+        new vis.Timeline(document.getElementById('timeline'), items, {
+          zoomMin: 1000*60*60*24*365*3,
+          min: '1958-01-01',
+          max: '2025-12-31'
+        });
 
-    const timeline = new vis.Timeline(document.getElementById('timeline'), items, {
-      zoomMin: 1000 * 60 * 60 * 24 * 365 * 5, // ~5 ans
-      zoomMax: 1000 * 60 * 60 * 24 * 365 * 70,
-      min: '1958-01-01',
-      max: '2025-12-31'
-    });
+        // Graphique
+        new Chart(document.getElementById('articleChart'), {
+          type: 'line',
+          data: {
+            labels: versions.map(v => v.date),
+            datasets: [{
+              label: 'Nombre d’articles',
+              data: versions.map(v => v.nb_articles),
+              borderColor: '#60a5fa',
+              tension: 0.3
+            }]
+          },
+          options: { responsive: true }
+        });
 
-    timeline.on('click', function(props) {
-      if (props.item) {
-        window.open(`https://github.com/allphat/constitution-ve-republique/blob/master/clean_versions/constitution_${props.item}.md`, '_blank');
-      }
-    });
+        // Fonction Diff (qui pointe maintenant vers clean_versions/)
+        window.showDiff = async () => {
+          const d1 = document.getElementById('date1').value;
+          const d2 = document.getElementById('date2').value;
 
-    // Graphique évolution du nombre d'articles
-    new Chart(document.getElementById('articleChart'), {
-      type: 'line',
-      data: {
-        labels: versions.map(v => v.date),
-        datasets: [{
-          label: 'Nombre d’articles',
-          data: versions.map(v => v.nb_articles),
-          borderColor: '#60a5fa',
-          tension: 0.3,
-          fill: false
-        }]
-      },
-      options: { responsive: true, scales: { y: { beginAtZero: true } } }
-    });
+          if (d1 === d2) return alert("Choisissez deux dates différentes");
 
-    // Fonction Diff
-    async function showDiff() {
-      const date1 = document.getElementById('date1').value;
-      const date2 = document.getElementById('date2').value;
+          const t1 = await (await fetch(`../clean_versions/constitution_${d1}.md`)).text();
+          const t2 = await (await fetch(`../clean_versions/constitution_${d2}.md`)).text();
 
-      if (date1 === date2) {
-        alert("Choisissez deux dates différentes");
-        return;
-      }
+          const lines1 = t1.split('\n');
+          const lines2 = t2.split('\n');
 
-      const res1 = await fetch(`../clean_versions/constitution_${date1}.md`);
-      const res2 = await fetch(`../clean_versions/constitution_${date2}.md`);
-      const text1 = await res1.text();
-      const text2 = await res2.text();
+          let html = `<h2>Différence entre ${d1} et ${d2}</h2>`;
 
-      // Diff simple ligne par ligne
-      const lines1 = text1.split('\n');
-      const lines2 = text2.split('\n');
+          const max = Math.max(lines1.length, lines2.length);
+          for (let i = 0; i < max; i++) {
+            const l1 = lines1[i] || '';
+            const l2 = lines2[i] || '';
+            if (l1 === l2) {
+              html += `<div>${l1}</div>`;
+            } else {
+              if (l1) html += `<div class="removed">- ${l1}</div>`;
+              if (l2) html += `<div class="added">+ ${l2}</div>`;
+            }
+          }
 
-      let diffHtml = `<h2>Différence entre ${date1} et ${date2}</h2>`;
-
-      const maxLines = Math.max(lines1.length, lines2.length);
-      for (let i = 0; i < maxLines; i++) {
-        const line1 = lines1[i] || '';
-        const line2 = lines2[i] || '';
-
-        if (line1 === line2) {
-          diffHtml += `<div>${line1}</div>`;
-        } else {
-          if (line1) diffHtml += `<div class="removed">- ${line1}</div>`;
-          if (line2) diffHtml += `<div class="added">+ ${line2}</div>`;
-        }
-      }
-
-      document.getElementById('diffResult').innerHTML = diffHtml;
-      document.getElementById('diffResult').style.display = 'block';
-    }
+          document.getElementById('diffResult').innerHTML = html;
+          document.getElementById('diffResult').style.display = 'block';
+        };
+      });
   </script>
 </body>
 </html>
