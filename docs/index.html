@@ -3,39 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Constitution Ve République — Évolution 1958-2024</title>
+  <title>Constitution de la Ve République • 1958-2024</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@latest/styles/vis-timeline-graph2d.min.css">
   <script src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
   <style>
-    body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 20px; background: #f4f6f9; color: #222; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(135deg, #f5f7fa, #e4e9f2);
+      color: #222;
+    }
     .container { max-width: 1200px; margin: 0 auto; }
-    h1 { color: #0033A0; text-align: center; margin-bottom: 10px; }
-    .subtitle { text-align: center; color: #555; margin-bottom: 40px; }
-    #timeline { height: 420px; border: 1px solid #ddd; background: white; border-radius: 8px; margin-bottom: 50px; }
-    canvas { background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .info { background: #e3f2fd; padding: 20px; border-radius: 10px; margin: 30px 0; font-size: 1.05em; }
-    a { color: #0033A0; }
+    h1 { 
+      color: #0033A0; 
+      text-align: center; 
+      margin-bottom: 8px;
+      font-size: 2.8em;
+    }
+    .subtitle {
+      text-align: center;
+      color: #555;
+      font-size: 1.3em;
+      margin-bottom: 40px;
+    }
+    .info {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    #timeline { 
+      height: 460px; 
+      border: 1px solid #ddd; 
+      background: white; 
+      border-radius: 12px; 
+      margin-bottom: 50px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+    canvas { 
+      background: white; 
+      border-radius: 12px; 
+      padding: 20px; 
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+    a { color: #0033A0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>📜 Constitution de la Ve République</h1>
-    <p class="subtitle">Histoire complète des 25 révisions constitutionnelles (1958 → 2024)</p>
+    <p class="subtitle">Histoire complète des révisions constitutionnelles (1958 → 2024)</p>
 
     <div class="info">
-      <strong>26 versions officielles</strong> • Suivi Git avec tags • Données extraites de Legifrance
+      <strong>25 versions officielles</strong> • Suivi Git avec tags précis • Données extraites de Legifrance
     </div>
 
-    <h2>📅 Timeline des révisions constitutionnelles</h2>
+    <h2>📅 Timeline interactive des révisions</h2>
     <div id="timeline"></div>
 
-    <h2>📊 Évolution du nombre d’articles au fil des révisions</h2>
-    <canvas id="chartArticles" height="140"></canvas>
+    <h2>📊 Évolution du nombre d’articles dans la Constitution</h2>
+    <canvas id="chartArticles" height="160"></canvas>
 
-    <p style="text-align:center; margin-top:40px; color:#666;">
-      Clique sur un point de la timeline pour voir la version exacte<br>
-      <a href="https://github.com/TON-USERNAME/constitution-ve-republique" target="_blank">Voir le repository GitHub →</a>
+    <p style="text-align:center; margin-top:50px; color:#444;">
+      <a href="https://github.com/allphat/constitution-ve-republique" target="_blank">
+        → Voir le repository GitHub complet
+      </a>
     </p>
   </div>
 
@@ -46,17 +83,21 @@
         // Timeline
         const items = data.map((v, i) => ({
           id: i,
-          content: `<strong>${v.date}</strong><br>${v.description.substring(0, 60)}...`,
+          content: `<strong>${v.date}</strong><br>${v.description.length > 65 ? v.description.substring(0,62)+'...' : v.description}`,
           start: v.date,
           title: v.description
         }));
 
-        new vis.Timeline(document.getElementById('timeline'), new vis.DataSet(items), {
-          zoomable: true,
-          horizontalScroll: true,
-          height: '400px',
-          tooltip: { followMouse: true }
-        });
+        new vis.Timeline(
+          document.getElementById('timeline'),
+          new vis.DataSet(items),
+          {
+            zoomable: true,
+            horizontalScroll: true,
+            height: '440px',
+            tooltip: { followMouse: true }
+          }
+        );
 
         // Graphique
         new Chart(document.getElementById('chartArticles'), {
@@ -64,28 +105,31 @@
           data: {
             labels: data.map(v => v.date),
             datasets: [{
-              label: "Nombre d'articles détectés",
+              label: "Nombre d'articles",
               data: data.map(v => v.nb_articles || 0),
               borderColor: '#0033A0',
-              backgroundColor: 'rgba(0, 51, 160, 0.15)',
-              tension: 0.4,
+              backgroundColor: 'rgba(0, 51, 160, 0.12)',
+              tension: 0.35,
               pointRadius: 6,
-              pointHoverRadius: 8
+              pointHoverRadius: 9
             }]
           },
           options: {
             responsive: true,
             plugins: {
-              legend: { position: 'top' },
+              legend: { position: 'top', labels: { font: { size: 14 } } },
               tooltip: { mode: 'index', intersect: false }
             },
             scales: {
-              y: { beginAtZero: true, title: { display: true, text: "Nombre d'articles" } }
+              y: { 
+                beginAtZero: true,
+                title: { display: true, text: "Nombre d'articles dans le texte" }
+              }
             }
           }
         });
       })
-      .catch(e => console.error("Erreur :", e));
+      .catch(err => console.error("Erreur de chargement des données :", err));
   </script>
 </body>
 </html>
