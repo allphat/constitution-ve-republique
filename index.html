@@ -24,108 +24,84 @@
       background: var(--bg); 
       color: var(--text); 
       margin: 0; 
-      padding: 15px; 
+      padding: 20px; 
       line-height: 1.6;
     }
-    h1 { 
-      text-align: center; 
-      color: var(--primary); 
-      font-size: 1.8rem; 
-      margin: 10px 0 5px; 
-    }
-    .subtitle { 
-      text-align: center; 
-      color: var(--text-light); 
-      font-size: 1rem; 
-      margin-bottom: 25px; 
-    }
+    h1 { text-align: center; color: var(--primary); font-size: 2.2rem; margin-bottom: 8px; }
+    .subtitle { text-align: center; color: var(--text-light); font-size: 1.05rem; margin-bottom: 25px; }
 
-    .container { max-width: 100%; margin: 0 auto; }
+    .container { max-width: 1450px; margin: 0 auto; }
 
-    /* Stats globales - responsive */
     .global-stats, .comparison-stats {
       background: var(--card); 
-      padding: 20px; 
+      padding: 25px; 
+      border-radius: 20px; 
+      box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+      display: flex; 
+      flex-wrap: wrap; 
+      gap: 20px; 
+      justify-content: center; 
+      margin: 25px 0;
+    }
+    .stat-card { 
+      text-align: center; 
+      min-width: 170px; 
+      background: #f8fafc; 
+      padding: 22px 25px; 
       border-radius: 16px; 
-      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      flex: 1;
+    }
+    .stat-value { font-size: 2.6rem; font-weight: 700; margin-bottom: 8px; color: var(--primary); }
+    .stat-label { font-size: 1rem; color: var(--text-light); }
+
+    .controls { 
+      background: var(--card); 
+      padding: 25px; 
+      border-radius: 20px; 
+      box-shadow: 0 8px 25px rgba(0,0,0,0.07);
       display: flex; 
       flex-wrap: wrap; 
       gap: 15px; 
       justify-content: center; 
-      margin: 20px 0;
-    }
-    .stat-card { 
-      text-align: center; 
-      min-width: 140px; 
-      background: #f8fafc; 
-      padding: 18px 15px; 
-      border-radius: 12px; 
-      flex: 1 1 140px;
-    }
-    .stat-value { font-size: 2.2rem; font-weight: 700; margin-bottom: 6px; color: var(--primary); }
-    .stat-label { font-size: 0.95rem; color: var(--text-light); }
-
-    /* Controls - mieux adapté mobile */
-    .controls { 
-      background: var(--card); 
-      padding: 20px; 
-      border-radius: 16px; 
-      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-      display: flex; 
-      flex-direction: column; 
-      gap: 15px; 
       align-items: center; 
-      margin: 20px 0;
-    }
-    @media (min-width: 600px) {
-      .controls { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+      margin: 25px 0;
     }
     select { 
-      padding: 14px 18px; 
+      padding: 14px 20px; 
       font-size: 1.05rem; 
       border: 2px solid #e2e8f0; 
-      border-radius: 10px; 
-      width: 100%; 
-      max-width: 320px; 
-      background: white;
+      border-radius: 12px; 
+      min-width: 280px; 
     }
     button { 
-      padding: 14px 24px; 
+      padding: 14px 28px; 
       font-size: 1.05rem; 
       font-weight: 600; 
       background: var(--primary); 
       color: white; 
       border: none; 
-      border-radius: 10px; 
+      border-radius: 12px; 
       cursor: pointer; 
-      width: 100%; 
-      max-width: 320px;
     }
     button:hover { background: var(--primary-light); }
 
-    .reset-btn { background: #64748b; }
-    .reset-btn:hover { background: #475569; }
-
-    /* Conteneurs */
     .version-text, .diff-container {
       background: var(--card); 
-      padding: 20px; 
+      padding: 25px; 
       border-radius: 16px; 
-      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
       margin: 25px 0; 
-      max-height: 60vh; 
+      max-height: 70vh; 
       overflow-y: auto; 
-      font-family: ui-monospace, monospace; 
+      font-family: monospace; 
       line-height: 1.65;
-      font-size: 0.98rem;
     }
     .diff-pre {
       white-space: pre;
-      font-family: ui-monospace, monospace;
+      font-family: monospace;
       line-height: 1.7;
-      margin: 0;
-      padding: 15px;
       background: #f8fafc;
+      padding: 15px;
       border-radius: 10px;
       overflow-x: auto;
     }
@@ -136,27 +112,22 @@
     .timeline, .chart-container { 
       margin: 30px 0; 
       background: var(--card); 
-      padding: 20px; 
-      border-radius: 16px; 
-      box-shadow: 0 6px 20px rgba(0,0,0,0.08); 
+      padding: 25px; 
+      border-radius: 20px; 
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08); 
     }
-    .chart-container { height: 420px; }
-
-    @media (max-width: 600px) {
-      .chart-container { height: 340px; }
-      h1 { font-size: 1.9rem; }
-    }
+    .chart-container { height: 500px; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Évolution Constitution Ve République</h1>
-    <p class="subtitle">De 1958 à aujourd’hui — Toutes les révisions</p>
+    <h1>Évolution de la Constitution de la Ve République</h1>
+    <p class="subtitle">De 1958 à aujourd’hui — Toutes les révisions constitutionnelles</p>
 
     <div class="global-stats">
       <div class="stat-card">
         <div class="stat-value" id="totalVersions">25</div>
-        <div class="stat-label">Versions</div>
+        <div class="stat-label">Versions historiques</div>
       </div>
       <div class="stat-card">
         <div class="stat-value" id="currentArticles">89</div>
@@ -164,31 +135,32 @@
       </div>
       <div class="stat-card">
         <div class="stat-value" id="lastChange">2024-03-08</div>
-        <div class="stat-label">Dernière modif</div>
+        <div class="stat-label">Dernière modification</div>
       </div>
     </div>
 
     <div class="controls">
       <select id="date1"></select>
+      <span style="font-size:1.6em; color:#64748b;">vs</span>
       <select id="date2"></select>
       <button onclick="loadDiff()">Comparer</button>
-      <button class="reset-btn" onclick="resetAll()">Réinitialiser</button>
+      <button class="reset-btn" onclick="resetAll()">Réinitialiser tout</button>
     </div>
 
     <div id="comparisonStats" class="comparison-stats" style="display:none;">
       <div class="stat-card green">
         <div class="stat-value" id="addedArticles">0</div>
-        <div class="stat-label">Ajoutés</div>
+        <div class="stat-label">Articles ajoutés</div>
         <div class="stat-percent" id="addedPercent">0%</div>
       </div>
       <div class="stat-card red">
         <div class="stat-value" id="removedArticles">0</div>
-        <div class="stat-label">Supprimés</div>
+        <div class="stat-label">Articles supprimés</div>
         <div class="stat-percent" id="removedPercent">0%</div>
       </div>
       <div class="stat-card orange">
         <div class="stat-value" id="modifiedArticles">0</div>
-        <div class="stat-label">Modifiés</div>
+        <div class="stat-label">Articles modifiés</div>
         <div class="stat-percent" id="modifiedPercent">0%</div>
       </div>
     </div>
@@ -205,7 +177,6 @@
   </div>
 
   <script>
-    // === TON CODE JS (inchangé, juste les chemins) ===
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "metadata.json", false);
     xhr.send();
@@ -223,6 +194,7 @@
     });
     s2.selectedIndex = versions.length - 1;
 
+    // Timeline
     const timeline = new vis.Timeline(document.getElementById('timeline'), 
       new vis.DataSet(versions.map(v => ({ id: v.date, content: v.description, start: v.date }))), 
       { min: '1958-01-01', max: '2025-12-31', width: '100%' }
@@ -238,6 +210,7 @@
       }
     });
 
+    // Graphique
     new Chart(document.getElementById('articleChart'), {
       type: 'line',
       data: {
@@ -256,51 +229,74 @@
       }
     });
 
+    // === COMPARAISON CORRIGÉE ===
     window.loadDiff = async () => {
       const d1 = document.getElementById('date1').value;
       const d2 = document.getElementById('date2').value;
       if (d1 === d2) return alert("Choisissez deux dates différentes");
 
+      const diffUrl = `diffs/${d1}_vs_${d2}.diff`;
+      const file1   = `clean_versions/constitution_${d1}.md`;
+      const file2   = `clean_versions/constitution_${d2}.md`;
+
       try {
         const [diffText, text1, text2] = await Promise.all([
-          fetch(`diffs/${d1}_vs_${d2}.diff`).then(r => r.text()),
-          fetch(`clean_versions/constitution_${d1}.md`).then(r => r.text()),
-          fetch(`clean_versions/constitution_${d2}.md`).then(r => r.text())
+          fetch(diffUrl).then(r => r.text()),
+          fetch(file1).then(r => r.text()),
+          fetch(file2).then(r => r.text())
         ]);
 
         const articles1 = extractArticles(text1);
         const articles2 = extractArticles(text2);
 
-        let added = 0, removed = 0, modified = 0;
+        let added = 0;
+        let removed = 0;
+        let modified = 0;
 
-        Object.keys(articles2).forEach(art => { if (!articles1[art]) added++; });
-        Object.keys(articles1).forEach(art => { if (!articles2[art]) removed++; });
-        Object.keys(articles1).forEach(art => { 
-          if (articles2[art] && articles1[art] !== articles2[art]) modified++; 
+        Object.keys(articles2).forEach(art => {
+          if (!articles1[art]) added++;
+        });
+
+        Object.keys(articles1).forEach(art => {
+          if (!articles2[art]) removed++;
+        });
+
+        Object.keys(articles1).forEach(art => {
+          if (articles2[art] && articles1[art] !== articles2[art]) modified++;
         });
 
         const base = Object.keys(articles1).length || 1;
 
         document.getElementById('addedArticles').textContent = added;
         document.getElementById('addedPercent').textContent = ((added / base) * 100).toFixed(1) + '%';
+
         document.getElementById('removedArticles').textContent = removed;
         document.getElementById('removedPercent').textContent = ((removed / base) * 100).toFixed(1) + '%';
+
         document.getElementById('modifiedArticles').textContent = modified;
         document.getElementById('modifiedPercent').textContent = ((modified / base) * 100).toFixed(1) + '%';
 
         document.getElementById('comparisonStats').style.display = 'flex';
 
+        // Affichage du diff (corrigé)
         let html = `<h2>Diff entre ${d1} et ${d2}</h2><pre class="diff-pre">`;
-        diffText.split('\n').forEach(line => {
-          if (line.startsWith('+')) html += `<span class="added">+ ${line.slice(1)}</span>\n`;
-          else if (line.startsWith('-')) html += `<span class="removed">- ${line.slice(1)}</span>\n`;
-          else if (line.trim()) html += `<span class="unchanged">${line}</span>\n`;
-          else html += '\n';
+        const lines = diffText.split('\n');
+        lines.forEach(line => {
+          if (line.startsWith('+')) {
+            html += `<span class="added">+ ${line.slice(1)}</span>\n`;
+          } else if (line.startsWith('-')) {
+            html += `<span class="removed">- ${line.slice(1)}</span>\n`;
+          } else if (line.trim() !== '') {
+            html += `<span class="unchanged">${line}</span>\n`;
+          } else {
+            html += '\n';
+          }
         });
         html += `</pre>`;
 
         document.getElementById('diffResult').innerHTML = html;
         document.getElementById('diffResult').style.display = 'block';
+
         document.getElementById('versionText').style.display = 'none';
 
       } catch (e) {
@@ -328,7 +324,9 @@
           if (current) articles[current] = content.join('\n').trim();
           current = line.trim();
           content = [];
-        } else if (current) content.push(line);
+        } else if (current) {
+          content.push(line);
+        }
       }
       if (current) articles[current] = content.join('\n').trim();
       return articles;
