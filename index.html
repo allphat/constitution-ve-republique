@@ -6,13 +6,15 @@
   <title>Évolution Constitution Ve République</title>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-timeline/8.3.1/vis-timeline-graph2d.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-timeline/8.3.1/vis-timeline-graph2d.min.css">
 
   <style>
     :root {
       --primary: #1e40af;
       --primary-light: #3b82f6;
+      --accent: #eab308;
+      --success: #16a34a;
+      --danger: #ef4444;
       --bg: #f8fafc;
       --card: #ffffff;
       --text: #1e2937;
@@ -45,13 +47,13 @@
     }
     .stat-card { 
       text-align: center; 
-      min-width: 170px; 
+      min-width: 160px; 
       background: #f8fafc; 
-      padding: 22px 25px; 
-      border-radius: 16px; 
+      padding: 20px; 
+      border-radius: 14px; 
       flex: 1;
     }
-    .stat-value { font-size: 2.6rem; font-weight: 700; margin-bottom: 8px; color: var(--primary); }
+    .stat-value { font-size: 2.5rem; font-weight: 700; margin-bottom: 6px; color: var(--primary); }
     .stat-label { font-size: 1rem; color: var(--text-light); }
 
     .controls { 
@@ -71,10 +73,11 @@
       font-size: 1.05rem; 
       border: 2px solid #e2e8f0; 
       border-radius: 12px; 
-      min-width: 280px; 
+      min-width: 240px; 
     }
+
     button { 
-      padding: 14px 28px; 
+      padding: 14px 24px; 
       font-size: 1.05rem; 
       font-weight: 600; 
       background: var(--primary); 
@@ -85,13 +88,36 @@
     }
     button:hover { background: var(--primary-light); }
 
+    .period-filters {
+      display: flex; 
+      flex-wrap: wrap; 
+      gap: 10px; 
+      justify-content: center; 
+      margin: 15px 0 25px;
+    }
+    .period-btn {
+      padding: 12px 20px;
+      font-size: 1rem;
+      background: white;
+      border: 2px solid #e2e8f0;
+      border-radius: 9999px;
+      cursor: pointer;
+      color: var(--text);
+      font-weight: 500;
+    }
+    .period-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
     .version-text, .diff-container {
       background: var(--card); 
       padding: 25px; 
       border-radius: 16px; 
       box-shadow: 0 8px 25px rgba(0,0,0,0.08);
       margin: 25px 0; 
-      max-height: 70vh; 
+      max-height: 65vh; 
       overflow-y: auto; 
       font-family: monospace; 
       line-height: 1.65;
@@ -109,14 +135,13 @@
     .removed { background: #fee2e2; color: #991b1b; }
     .unchanged { color: #64748b; }
 
-    .timeline, .chart-container { 
+    .timeline { 
       margin: 30px 0; 
       background: var(--card); 
       padding: 25px; 
       border-radius: 20px; 
       box-shadow: 0 8px 25px rgba(0,0,0,0.08); 
     }
-    .chart-container { height: 500px; }
   </style>
 </head>
 <body>
@@ -127,11 +152,11 @@
     <div class="global-stats">
       <div class="stat-card">
         <div class="stat-value" id="totalVersions">25</div>
-        <div class="stat-label">Versions historiques</div>
+        <div class="stat-label">Versions dans la période</div>
       </div>
       <div class="stat-card">
         <div class="stat-value" id="currentArticles">89</div>
-        <div class="stat-label">Articles aujourd’hui</div>
+        <div class="stat-label">Articles à la fin de la période</div>
       </div>
       <div class="stat-card">
         <div class="stat-value" id="lastChange">2024-03-08</div>
@@ -139,28 +164,38 @@
       </div>
     </div>
 
+    <!-- Filtres par période -->
+    <div class="period-filters">
+      <button class="period-btn active" data-period="all">Toutes les périodes</button>
+      <button class="period-btn" data-period="1958-1970">1958-1970</button>
+      <button class="period-btn" data-period="1971-1990">1971-1990</button>
+      <button class="period-btn" data-period="1991-2000">1991-2000</button>
+      <button class="period-btn" data-period="2001-2010">2001-2010</button>
+      <button class="period-btn" data-period="2011-2024">2011-2024</button>
+    </div>
+
     <div class="controls">
       <select id="date1"></select>
       <span style="font-size:1.6em; color:#64748b;">vs</span>
       <select id="date2"></select>
-      <button onclick="loadDiff()">Comparer</button>
-      <button class="reset-btn" onclick="resetAll()">Réinitialiser tout</button>
+      <button onclick="loadComparison()">Comparer</button>
+      <button onclick="resetAll()">Réinitialiser</button>
     </div>
 
     <div id="comparisonStats" class="comparison-stats" style="display:none;">
-      <div class="stat-card green">
+      <div class="stat-card" style="color:var(--success);">
         <div class="stat-value" id="addedArticles">0</div>
-        <div class="stat-label">Articles ajoutés</div>
+        <div class="stat-label">Ajoutés</div>
         <div class="stat-percent" id="addedPercent">0%</div>
       </div>
-      <div class="stat-card red">
+      <div class="stat-card" style="color:var(--danger);">
         <div class="stat-value" id="removedArticles">0</div>
-        <div class="stat-label">Articles supprimés</div>
+        <div class="stat-label">Supprimés</div>
         <div class="stat-percent" id="removedPercent">0%</div>
       </div>
-      <div class="stat-card orange">
+      <div class="stat-card" style="color:#d97706;">
         <div class="stat-value" id="modifiedArticles">0</div>
-        <div class="stat-label">Articles modifiés</div>
+        <div class="stat-label">Modifiés</div>
         <div class="stat-percent" id="modifiedPercent">0%</div>
       </div>
     </div>
@@ -169,167 +204,161 @@
 
     <div class="timeline" id="timeline"></div>
 
-    <div class="chart-container">
-      <canvas id="articleChart"></canvas>
-    </div>
-
     <div id="diffResult" class="diff-container" style="display:none;"></div>
   </div>
 
   <script>
-    const xhr = new XMLHttpRequest();
-    xhr.open("GET", "metadata.json", false);
-    xhr.send();
-    const versions = JSON.parse(xhr.responseText);
+    let versions = [];
+    let timeline;
+    let allItems = [];
+    let currentFilteredVersions = [];
 
-    document.getElementById('totalVersions').textContent = versions.length;
-    document.getElementById('currentArticles').textContent = versions[versions.length-1].nb_articles;
-    document.getElementById('lastChange').textContent = versions[versions.length-1].date;
+    fetch("metadata.json")
+      .then(r => r.json())
+      .then(data => {
+        versions = data;
+        currentFilteredVersions = [...versions]; // copie initiale
+        allItems = versions.map(v => ({
+          id: v.date,
+          content: v.description || v.date,
+          start: v.date
+        }));
 
-    const s1 = document.getElementById('date1');
-    const s2 = document.getElementById('date2');
-    versions.forEach(v => {
-      s1.add(new Option(v.description, v.date));
-      s2.add(new Option(v.description, v.date));
-    });
-    s2.selectedIndex = versions.length - 1;
+        updateGlobalStats(versions);
+        populateSelects(versions);
+        initTimeline();
+      });
 
-    // Timeline
-    const timeline = new vis.Timeline(document.getElementById('timeline'), 
-      new vis.DataSet(versions.map(v => ({ id: v.date, content: v.description, start: v.date }))), 
-      { min: '1958-01-01', max: '2025-12-31', width: '100%' }
-    );
+    function populateSelects(filtered) {
+      const s1 = document.getElementById('date1');
+      const s2 = document.getElementById('date2');
+      s1.innerHTML = '';
+      s2.innerHTML = '';
 
-    timeline.on('click', async function (props) {
-      if (props.item) {
-        const text = await (await fetch(`clean_versions/constitution_${props.item}.md`)).text();
-        document.getElementById('versionText').innerHTML = `<pre>${text}</pre>`;
-        document.getElementById('versionText').style.display = 'block';
-        document.getElementById('comparisonStats').style.display = 'none';
-        document.getElementById('diffResult').style.display = 'none';
+      filtered.forEach(v => {
+        const opt1 = new Option(v.description || v.date, v.date);
+        const opt2 = new Option(v.description || v.date, v.date);
+        s1.add(opt1);
+        s2.add(opt2);
+      });
+      s2.selectedIndex = filtered.length - 1;
+    }
+
+    function initTimeline() {
+      timeline = new vis.Timeline(
+        document.getElementById('timeline'),
+        new vis.DataSet(allItems),
+        { min: '1958-01-01', max: '2025-12-31', width: '100%', height: '380px' }
+      );
+
+      timeline.on('click', async function (props) {
+        if (props.item) {
+          const text = await (await fetch(`clean_versions/constitution_${props.item}.md`)).text();
+          document.getElementById('versionText').innerHTML = `<pre style="white-space:pre-wrap;">${text}</pre>`;
+          document.getElementById('versionText').style.display = 'block';
+          document.getElementById('diffResult').style.display = 'none';
+        }
+      });
+    }
+
+    function updateGlobalStats(filtered) {
+      document.getElementById('totalVersions').textContent = filtered.length;
+      if (filtered.length > 0) {
+        const last = filtered[filtered.length - 1];
+        document.getElementById('currentArticles').textContent = last.nb_articles || '?';
+        document.getElementById('lastChange').textContent = last.date;
       }
+    }
+
+    // === FILTRE PAR PÉRIODE ===
+    document.querySelectorAll('.period-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.period-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const period = btn.dataset.period;
+        let filtered = versions;
+
+        if (period !== 'all') {
+          const [startYear, endYear] = period.split('-').map(Number);
+          filtered = versions.filter(v => {
+            const year = parseInt(v.date.substring(0, 4));
+            return year >= startYear && year <= endYear;
+          });
+        }
+
+        currentFilteredVersions = filtered;
+
+        // Mise à jour timeline
+        timeline.setItems(new vis.DataSet(filtered.map(v => ({
+          id: v.date,
+          content: v.description || v.date,
+          start: v.date
+        }))));
+
+        // Mise à jour stats globales
+        updateGlobalStats(filtered);
+
+        // Mise à jour des deux selects
+        populateSelects(filtered);
+      });
     });
 
-    // Graphique
-    new Chart(document.getElementById('articleChart'), {
-      type: 'line',
-      data: {
-        labels: versions.map(v => v.date),
-        datasets: [{ 
-          label: 'Nombre d’articles', 
-          data: versions.map(v => v.nb_articles), 
-          borderColor: '#1e40af', 
-          tension: 0.3 
-        }]
-      },
-      options: { 
-        responsive: true, 
-        maintainAspectRatio: false, 
-        scales: { y: { min: 70, max: 115 } } 
-      }
-    });
-
-    // === COMPARAISON CORRIGÉE ===
-    window.loadDiff = async () => {
+    // Comparaison (avec comparison_stats.json)
+    window.loadComparison = async () => {
       const d1 = document.getElementById('date1').value;
       const d2 = document.getElementById('date2').value;
       if (d1 === d2) return alert("Choisissez deux dates différentes");
 
-      const diffUrl = `diffs/${d1}_vs_${d2}.diff`;
-      const file1   = `clean_versions/constitution_${d1}.md`;
-      const file2   = `clean_versions/constitution_${d2}.md`;
-
       try {
-        const [diffText, text1, text2] = await Promise.all([
-          fetch(diffUrl).then(r => r.text()),
-          fetch(file1).then(r => r.text()),
-          fetch(file2).then(r => r.text())
-        ]);
+        const statsResp = await fetch("comparison_stats.json");
+        const allStats = await statsResp.json();
+        const key = `${d1}_vs_${d2}`;
+        const stats = allStats[key] || { added: 0, removed: 0, modified: 0, addedPercent: "0%", removedPercent: "0%", modifiedPercent: "0%" };
 
-        const articles1 = extractArticles(text1);
-        const articles2 = extractArticles(text2);
-
-        let added = 0;
-        let removed = 0;
-        let modified = 0;
-
-        Object.keys(articles2).forEach(art => {
-          if (!articles1[art]) added++;
-        });
-
-        Object.keys(articles1).forEach(art => {
-          if (!articles2[art]) removed++;
-        });
-
-        Object.keys(articles1).forEach(art => {
-          if (articles2[art] && articles1[art] !== articles2[art]) modified++;
-        });
-
-        const base = Object.keys(articles1).length || 1;
-
-        document.getElementById('addedArticles').textContent = added;
-        document.getElementById('addedPercent').textContent = ((added / base) * 100).toFixed(1) + '%';
-
-        document.getElementById('removedArticles').textContent = removed;
-        document.getElementById('removedPercent').textContent = ((removed / base) * 100).toFixed(1) + '%';
-
-        document.getElementById('modifiedArticles').textContent = modified;
-        document.getElementById('modifiedPercent').textContent = ((modified / base) * 100).toFixed(1) + '%';
+        document.getElementById('addedArticles').textContent = stats.added;
+        document.getElementById('addedPercent').textContent = stats.addedPercent;
+        document.getElementById('removedArticles').textContent = stats.removed;
+        document.getElementById('removedPercent').textContent = stats.removedPercent;
+        document.getElementById('modifiedArticles').textContent = stats.modified;
+        document.getElementById('modifiedPercent').textContent = stats.modifiedPercent;
 
         document.getElementById('comparisonStats').style.display = 'flex';
 
-        // Affichage du diff (corrigé)
-        let html = `<h2>Diff entre ${d1} et ${d2}</h2><pre class="diff-pre">`;
-        const lines = diffText.split('\n');
-        lines.forEach(line => {
-          if (line.startsWith('+')) {
-            html += `<span class="added">+ ${line.slice(1)}</span>\n`;
-          } else if (line.startsWith('-')) {
-            html += `<span class="removed">- ${line.slice(1)}</span>\n`;
-          } else if (line.trim() !== '') {
-            html += `<span class="unchanged">${line}</span>\n`;
-          } else {
-            html += '\n';
-          }
+        const diffResp = await fetch(`diffs/${d1}_vs_${d2}.diff`);
+        const diffText = await diffResp.text();
+
+        let html = `<h2>Différence entre ${d1} et ${d2}</h2><pre class="diff-pre">`;
+        diffText.split('\n').forEach(line => {
+          if (line.startsWith('+')) html += `<span class="added">+ ${line.slice(1)}</span>\n`;
+          else if (line.startsWith('-')) html += `<span class="removed">- ${line.slice(1)}</span>\n`;
+          else if (line.trim()) html += `<span class="unchanged">${line}</span>\n`;
+          else html += '\n';
         });
         html += `</pre>`;
 
         document.getElementById('diffResult').innerHTML = html;
         document.getElementById('diffResult').style.display = 'block';
-
         document.getElementById('versionText').style.display = 'none';
 
       } catch (e) {
         console.error(e);
-        alert("Impossible de charger le diff.");
+        alert("Impossible de charger les statistiques.");
       }
     };
 
     function resetAll() {
+      document.querySelectorAll('.period-btn').forEach(b => b.classList.remove('active'));
+      document.querySelector('.period-btn[data-period="all"]').classList.add('active');
+
+      currentFilteredVersions = [...versions];
+      timeline.setItems(new vis.DataSet(allItems));
+      updateGlobalStats(versions);
+      populateSelects(versions);
+
       document.getElementById('versionText').style.display = 'none';
       document.getElementById('comparisonStats').style.display = 'none';
       document.getElementById('diffResult').style.display = 'none';
-      document.getElementById('date1').selectedIndex = 0;
-      document.getElementById('date2').selectedIndex = versions.length - 1;
-    }
-
-    function extractArticles(text) {
-      const articles = {};
-      const lines = text.split('\n');
-      let current = null;
-      let content = [];
-      for (let line of lines) {
-        const match = line.match(/^Article\s+(PREAMBULE|\d+)/i);
-        if (match) {
-          if (current) articles[current] = content.join('\n').trim();
-          current = line.trim();
-          content = [];
-        } else if (current) {
-          content.push(line);
-        }
-      }
-      if (current) articles[current] = content.join('\n').trim();
-      return articles;
     }
   </script>
 </body>

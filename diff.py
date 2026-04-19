@@ -2,14 +2,33 @@ from pathlib import Path
 import subprocess
 
 dates = [
-    "1958-10-05", "1960-06-04", "1962-11-06", "1963-12-30", "1974-10-29",
-    "1976-06-18", "1992-06-25", "1993-07-27", "1993-11-25", "1995-08-04",
-    "1996-02-22", "1998-07-20", "1999-01-25", "1999-07-08", "2000-10-02",
-    "2003-03-25", "2003-03-28", "2005-03-01", "2007-02-23", "2008-02-04",
-    "2008-07-23", "2011-07-13", "2012-11-09", "2013-03-13", "2024-03-08"
+    "1958-10-05",   # Version initiale (promulguée le 5 octobre 1958)
+    "1960-06-08",   # 8 juin 1960
+    "1962-11-09",   # 9 novembre 1962
+    "1963-12-31",   # 31 décembre 1963
+    "1974-10-30",   # 30 octobre 1974
+    "1976-06-19",   # 19 juin 1976
+    "1992-06-26",   # 26 juin 1992
+    "1993-07-28",   # 28 juillet 1993
+    "1993-11-26",   # 26 novembre 1993
+    "1995-08-05",   # 5 août 1995
+    "1996-02-23",   # 23 février 1996
+    "1998-07-21",   # 21 juillet 1998
+    "1999-01-26",   # 26 janvier 1999
+    "1999-07-09",   # 9 juillet 1999
+    "2000-10-03",   # 3 octobre 2000
+    "2003-03-26",   # 26 mars 2003
+    "2003-03-29",   # 29 mars 2003
+    "2005-03-02",   # 2 mars 2005
+    "2007-02-24",   # 24 février 2007
+    "2008-02-06",   # 6 février 2008
+    "2008-07-25",   # 25 juillet 2008
+    "2009-03-01",   # 1er mars 2009
+    "2009-12-01",   # 1er décembre 2009
+    "2024-03-10"    # 10 mars 2024 (IVG)
 ]
 
-diff_dir = Path("docs/diffs")
+diff_dir = Path("./diffs")
 diff_dir.mkdir(exist_ok=True, parents=True)
 
 print("🔨 Génération des diffs propres...\n")
@@ -49,5 +68,5 @@ for i in range(len(dates)):
         except Exception as e:
             print(f"✗ Erreur {d1} vs {d2} : {e}")
 
-print("\n✅ Tous les diffs ont été générés et nettoyés dans docs/diffs/")
+print("\n✅ Tous les diffs ont été générés et nettoyés dans diffs/")
 print("Tu peux maintenant relancer ton serveur local et tester la comparaison.")
