@@ -528,7 +528,7 @@ La République peut conclure des accords avec des Etats qui désirent s'associer
 
 Article 88-1
 La République participe aux Communautés européennes et à l'Union européenne, constituées d'Etats qui ont choisi librement, en vertu des traités qui les ont instituées, d'exercer en commun certaines de leurs compétences.
-Elle peut participer à l'Union européenne dans les conditions prévues par le traité établissant une Constitution pour l'Europe signé le 29 octobre 2004.
+Elle peut participer à l'Union européenne dans les conditions prévues par le traité de Lisbonne modifiant le traité sur l'Union européenne et le traité instituant la Communauté européenne, signé le 13 décembre 2007
 
 Article 88-2
 Sous réserve de réciprocité, et selon les modalités prévues par le Traité sur l'Union européenne signé le 7 février 1992, la France consent aux transferts de compétences nécessaires à l'établissement de l'union économique et monétaire européenne.

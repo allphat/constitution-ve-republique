@@ -26,14 +26,14 @@ Les partis et groupements politiques concourent à l'expression du suffrage. Ils
 
 Article 5
 Le Président de la République veille au respect de la Constitution. Il assure, par son arbitrage, le fonctionnement régulier des pouvoirs publics ainsi que la continuité de l'Etat.
-Il est le garant de l'indépendance nationale, de l'intégrité du territoire, du respect des accords de Communauté et des traités.
+Il est le garant de l'indépendance nationale, de l'intégrité du territoire et du respect des traités.
 
 Article 6
 Le Président de la République est élu pour sept ans par un collège électoral comprenant les membres du Parlement, des conseils généraux et des assemblées des territoires d'outre-mer, ainsi que les représentants élus des conseils municipaux.
 Ces représentants sont :
 - le maire pour les communes de moins de 1000 habitants ;
 - le maire et le premier adjoint pour les communes de 1000 à 2000 habitants ;
-- le maire, le premier adjoint et un conseiller municipal pris dans l'ordre du tableau pour les communes de 2001 à 2500 habitants :
+- le maire, le premier adjoint et un conseiller municipal pris dans l'ordre du tableau pour les communes de 2001 à 2500 habitants ;
 - le maire et les deux premiers adjoints pour les communes de 2501 à 3000 habitants ;
 - le maire, les deux premiers adjoints et trois conseillers municipaux pris dans l'ordre du tableau pour les communes de 3001 à 6000 habitants ;
 - le maire, les deux premiers adjoints et six conseillers municipaux pris dans l'ordre du tableau pour les communes de 6001 à 9000 habitants ;
@@ -47,7 +47,7 @@ Article 7
 L'élection du Président de la République a lieu à la majorité absolue au premier tour. Si celle-ci n'est pas obtenue, le Président de la République est élu au second tour à la majorité relative.
 Le scrutin est ouvert sur convocation du Gouvernement.
 L'élection du nouveau Président a lieu vingt jours au moins et cinquante jours au plus avant l'expiration des pouvoirs du Président en exercice.
-En cas de vacance de la Présidence de la République pour quelque cause que ce soit, ou d'empêchement constaté par le Conseil constitutionnel saisi par le Gouvernement et statuant à la majorité absolue de ses membres, les fonctions du Président de la République, à l'exception de celles prévues aux articles 11 et 12 ci-dessous, sont provisoirement exercées par le Président du Sénat. En cas de vacance ou lorsque l'empêchement est déclaré définitif par le Conseil constitutionnel, le scrutin pour l'élection du nouveau Président a lieu, sauf cas de force majeure constaté par le Conseil constitutionnel, vingt jours au moins et cinquante jours au plus aprés l'ouverture de la vacance ou de la déclaration du caractère définitif de l'empêchement.
+En cas de vacance de la Présidence de la République pour quelque cause que ce soit, ou d'empêchement constaté par le Conseil constitutionnel saisi par le Gouvernement et statuant à la majorité absolue de ses membres, les fonctions du Président de la République, à l'exception de celles prévues aux articles 11 et 12 ci-dessous, sont provisoirement exercées par le Président du Sénat. En cas de vacance ou lorsque l'empêchement est déclaré définitif par le Conseil constitutionnel, le scrutin pour l'élection du nouveau Président a lieu, sauf cas de force majeure constaté par le Conseil constitutionnel, vingt jours au moins et cinquante jours au plus après l'ouverture de la vacance ou de la déclaration du caractère définitif de l'empêchement.
 
 Article 8
 Le Président de la République nomme le Premier ministre. Il met fin à ses fonctions sur la présentation par celui-ci de la démission du Gouvernement.
@@ -65,8 +65,8 @@ Le Président de la République, sur proposition du Gouvernement pendant la dur�
 Lorsque le référendum a conclu à l'adoption du projet, le Président de la République le promulgue dans le délai prévu à l'article précédent.
 
 Article 12
-Le Président de la République peut, aprés consultation du Premier Ministre et des présidents des assemblées, prononcer la dissolution de l'Assemblée nationale.
-Les élections générales ont lieu vingt jours au moins et quarante jours au plus tard aprés la dissolution.
+Le Président de la République peut, après consultation du Premier ministre et des présidents des assemblées, prononcer la dissolution de l'Assemblée nationale.
+Les élections générales ont lieu vingt jours au moins et quarante jours au plus après la dissolution.
 L'Assemblée nationale se réunit de plein droit le deuxième jeudi qui suit son élection. Si cette réunion a lieu en dehors des périodes prévues pour les sessions ordinaires, une session est ouverte de droit pour une durée de quinze jours.
 Il ne peut être procédé à une nouvelle dissolution dans l'année qui suit ces élections.
 
@@ -83,7 +83,7 @@ Article 15
 Le Président de la République est le chef des armées. Il préside les conseils et comités supérieurs de la Défense nationale.
 
 Article 16
-Lorsque les institutions de la République, l'indépendance de la Nation, l'intégrité de son territoire ou l'exécution de ses engagements internationaux sont menacés (1) d'une manière grave et immédiate et que le fonctionnement régulier des pouvoirs publics constitutionnels est interrompu, le Président de la République prend les mesures exigées par ces circonstances, après consultation officielle du Premier ministre, des Présidents des Assemblées ainsi que du Conseil constitutionnel.
+Lorsque les institutions de la République, l'indépendance de la Nation, l'intégrité de son territoire ou l'exécution de ses engagements internationaux sont menacés d'une manière grave et immédiate et que le fonctionnement régulier des pouvoirs publics constitutionnels est interrompu, le Président de la République prend les mesures exigées par ces circonstances, après consultation officielle du Premier ministre, des Présidents des Assemblées ainsi que du Conseil constitutionnel.
 Il en informe la Nation par un message.
 Ces mesures doivent être inspirées par la volonté d'assurer aux pouvoirs publics constitutionnels, dans les moindres délais, les moyens d'accomplir leur mission. Le Conseil constitutionnel est consulté à leur sujet.
 Le Parlement se réunit de plein droit.
@@ -102,18 +102,12 @@ Les actes du Président de la République autres que ceux prévus aux articles 8
 Article 20
 Le Gouvernement détermine et conduit la politique de la Nation.
 Il dispose de l'administration et de la force armée.
-Il est responsable devant le Parlement dans les conditions et suivant les procédures prévues aux
-articles 49 et 50
-.
+Il est responsable devant le Parlement dans les conditions et suivant les procédures prévues aux articles 49 et 50.
 
 Article 21
-Le Premier ministre dirige l'action du Gouvernement. Il est responsable de la Défense nationale. Il assure l'exécution des lois. Sous réserve des dispositions de
-l'article 13
-, il exerce le pouvoir réglementaire et nomme aux emplois civils et militaires.
+Le Premier ministre dirige l'action du Gouvernement. Il est responsable de la Défense nationale. Il assure l'exécution des lois. Sous réserve des dispositions de l'article 13, il exerce le pouvoir réglementaire et nomme aux emplois civils et militaires.
 Il peut déléguer certains de ses pouvoirs aux ministres.
-Il supplée, le cas échéant, le Président de la République dans la présidence des conseils et comités prévus à
-l'article 15
-.
+Il supplée, le cas échéant, le Président de la République dans la présidence des conseils et comités prévus à l'article 15.
 Il peut, à titre exceptionnel, le suppléer pour la présidence d'un Conseil des ministres en vertu d'une délégation expresse et pour un ordre du jour déterminé.
 
 Article 22
@@ -122,9 +116,7 @@ Les actes du Premier ministre sont contresignés, le cas échéant, par les mini
 Article 23
 Les fonctions de membre du Gouvernement sont incompatibles avec l'exercice de tout mandat parlementaire, de toute fonction de représentation professionnelle à caractère national et de tout emploi public ou de toute activité professionnelle.
 Une loi organique fixe les conditions dans lesquelles il est pourvu au remplacement des titulaires de tels mandats, fonctions ou emplois.
-Le remplacement des membres du Parlement a lieu conformément aux dispositions de
-l'article 25
-.
+Le remplacement des membres du Parlement a lieu conformément aux dispositions de l'article 25.
 
 Article 24
 Le Parlement comprend l'Assemblée nationale et le Sénat.
@@ -200,7 +192,7 @@ L'état de siège est décrété en Conseil des ministres. Sa prorogation au-del
 
 Article 37
 Les matières autres que celles qui sont du domaine de la loi ont un caractère réglementaire.
-Les textes de forme législative intervenus en ces matières peuvent être modifiés par décrets pris après avis du Conseil d'Etat. Ceux de  ces textes qui interviendraient après l'entrée en vigueur de la présente Constitution ne pourront être modifiés par décret que si le Conseil constitutionnel a déclaré qu'ils ont un caractère réglementaire en vertu de l'alinéa précédent.
+Les textes de forme législative intervenus en ces matières peuvent être modifiés par décrets pris après avis du Conseil d'Etat. Ceux de ces textes qui interviendraient après l'entrée en vigueur de la présente Constitution ne pourront être modifiés par décret que si le Conseil constitutionnel a déclaré qu'ils ont un caractère réglementaire en vertu de l'alinéa précédent.
 
 Article 38
 Le Gouvernement peut, pour l'exécution de son programme, demander au Parlement l'autorisation de prendre par ordonnances, pendant un délai limité, des mesures qui sont normalement du domaine de la loi.
@@ -208,8 +200,8 @@ Les ordonnances sont prises en Conseil des ministres après avis du Conseil d'Et
 A l'expiration du délai mentionné au premier alinéa du présent article, les ordonnances ne peuvent plus être modifiées que par la loi dans les matières qui sont du domaine législatif.
 
 Article 39
-L'initiative des lois appartient concurremment au Premier Ministre et aux membres du Parlement.
-Les projets de loi sont délibérés en conseil des ministres aprés avis du Conseil d'Etat et déposés sur le bureau de l'une des deux assemblées. Les projets de loi de finances sont soumis en premier lieu à l'Assemblée nationale.
+L'initiative des lois appartient concurremment au Premier ministre et aux membres du Parlement.
+Les projets de loi sont délibérés en conseil des ministres après avis du Conseil d'Etat et déposés sur le bureau de l'une des deux assemblées. Les projets de loi de finances sont soumis en premier lieu à l'Assemblée nationale.
 
 Article 40
 Les propositions et amendements formulés par les membres du Parlement ne sont pas recevables lorsque leur adoption aurait pour conséquence soit une diminution des ressources publiques, soit la création ou l'aggravation d'une charge publique.
@@ -250,25 +242,22 @@ Si l'Assemblée nationale ne s'est pas prononcée en première lecture dans le d
 Si le Parlement ne s'est pas prononcé dans un délai de soixante-dix jours, les dispositions du projet peuvent être mises en vigueur par ordonnance.
 Si la loi de finances fixant les ressources et les charges d'un exercice n'a pas été déposée en temps utile pour être promulguée avant le début de cet exercice, le Gouvernement demande d'urgence au Parlement l'autorisation de percevoir les impôts et ouvre par décret les crédits se rapportant aux services votés.
 Les délais prévus au présent article sont suspendus lorsque le Parlement n'est pas en session.
-La Cour des comptes assiste le Parlement et le Gouvernement dans le contrôle de l'exécution des lois de finances.
 
 Article 48
 L'ordre du jour des assemblées comporte, par priorité et dans l'ordre que le Gouvernement a fixé, la discussion des projets de loi déposés par le Gouvernement et des propositions de loi acceptées par lui.
 Une séance par semaine est réservée par priorité aux questions des membres du Parlement et aux réponses du Gouvernement.
 
 Article 49
-Le Premier Ministre, aprés délibération du conseil des ministres, engage devant l'Assemblée nationale la responsabilité du Gouvernement sur son programme ou éventuellement sur une déclaration de politique générale.
-L'Assemblée nationale met en cause la responsabilité du Gouvernement par le vote d'une motion de censure. Une telle motion n'est recevable que si elle est signée par un dixième au moins des membres de l'Assemblée nationale. Le vote ne peut avoir lieu que quarante-huit heures aprés son dépôt. Seuls sont recensés les votes favorables à la motion de censure qui ne peut être adoptée qu'à la majorité des membres composant l'Assemblée. Si la motion de censure est rejetée, ses signataires ne peuvent en proposer une nouvelle au cours de la même session, sauf dans le cas prévu à l'alinéa ci-dessous.
-Le Premier Ministre peut, aprés délibération du conseil des ministres, engager la responsabilité du Gouvernement devant l'Assemblée nationale sur le vote d'un texte. Dans ce cas, ce texte est considéré comme adopté, sauf si une motion de censure, déposée dans les vingt-quatre heures qui suivent, est votée dans les conditions prévues à l'alinéa précédent.
-Le Premier Ministre a la faculté de demander au Sénat l'approbation d'une déclaration de politique générale.
+Le Premier ministre, après délibération du conseil des ministres, engage devant l'Assemblée nationale la responsabilité du Gouvernement sur son programme ou éventuellement sur une déclaration de politique générale.
+L'Assemblée nationale met en cause la responsabilité du Gouvernement par le vote d'une motion de censure. Une telle motion n'est recevable que si elle est signée par un dixième au moins des membres de l'Assemblée nationale. Le vote ne peut avoir lieu que quarante-huit heures après son dépôt. Seuls sont recensés les votes favorables à la motion de censure qui ne peut être adoptée qu'à la majorité des membres composant l'Assemblée. Si la motion de censure est rejetée, ses signataires ne peuvent en proposer une nouvelle au cours de la même session.
+Le Premier ministre peut, après délibération du conseil des ministres, engager la responsabilité du Gouvernement devant l'Assemblée nationale sur le vote d'un texte. Dans ce cas, ce texte est considéré comme adopté, sauf si une motion de censure, déposée dans les vingt-quatre heures qui suivent, est votée dans les conditions prévues à l'alinéa précédent.
+Le Premier ministre a la faculté de demander au Sénat l'approbation d'une déclaration de politique générale.
 
 Article 50
 Lorsque l'Assemblée nationale adopte une motion de censure ou lorsqu'elle désapprouve le programme ou une déclaration de politique générale du Gouvernement, le Premier ministre doit remettre au Président de la République la démission du Gouvernement.
 
 Article 51
-La clôture des sessions ordinaires ou extraordinaires est de droit retardée pour permettre, le cas échéant, l'application des dispositions de
-l'article 49
-.
+La clôture des sessions ordinaires ou extraordinaires est de droit retardée pour permettre, le cas échéant, l'application des dispositions de l'article 49.
 
 Article 52
 Le Président de la République négocie et ratifie les traités.
@@ -280,7 +269,7 @@ Ils ne prennent effet qu'après avoir été ratifiés ou approuvés.
 Nulle cession, nul échange, nulle adjonction de territoire n'est valable sans le consentement des populations intéressées.
 
 Article 54
-Si le Conseil Constitutionnel, saisi par le Président de la République, par le Premier Ministre ou par le Président de l'une ou l'autre assemblée, a déclaré qu'un engagement international comporte une clause contraire à la Constitution, l'autorisation de le ratifier ou de l'approuver ne peut intervenir qu'aprés la révision de la Constitution.
+Si le Conseil constitutionnel, saisi par le Président de la République, par le Premier ministre ou par le président de l'une ou l'autre assemblée, a déclaré qu'un engagement international comporte une clause contraire à la Constitution, l'autorisation de le ratifier ou de l'approuver ne peut intervenir qu'après la révision de la Constitution.
 
 Article 55
 Les traités ou accords régulièrement ratifiés ou approuvés ont, dès leur publication, une autorité supérieure à celle des lois, sous réserve, pour chaque accord ou traité, de son application par l'autre partie.
@@ -305,7 +294,7 @@ Le Conseil constitutionnel veille à la régularité des opérations de référe
 
 Article 61
 Les lois organiques, avant leur promulgation, et les règlements des assemblées parlementaires, avant leur mise en application, doivent être soumis au Conseil constitutionnel, qui se prononce sur leur conformité à la Constitution.
-Aux mêmes fins, les lois peuvent être déférées au Conseil constitutionnel, avant leur promulgation, par le Président de la République, le Premier Ministre ou le président de l'une ou l'autre assemblée.
+Aux mêmes fins, les lois peuvent être déférées au Conseil constitutionnel, avant leur promulgation, par le Président de la République, le Premier ministre ou le président de l'une ou l'autre assemblée.
 Dans les cas prévus aux deux alinéas précédents, le Conseil constitutionnel doit statuer dans le délai d'un mois. Toutefois, à la demande du Gouvernement, s'il y a urgence, ce délai est ramené à huit jours.
 Dans ces mêmes cas, la saisine du Conseil constitutionnel suspend le délai de promulgation.
 
@@ -323,10 +312,10 @@ Une loi organique porte statut des magistrats.
 Les magistrats du siège sont inamovibles.
 
 Article 65
-Le Conseil supérieur de la magistrature est présidé par le Président de la République. Le Ministre de la Justice en est le vice-président de droit. Il peut suppléer le Président de la République.
+Le Conseil supérieur de la magistrature est présidé par le Président de la République. Le ministre de la Justice en est le vice-président de droit. Il peut suppléer le Président de la République.
 Le Conseil supérieur comprend en outre neuf membres désignés par le Président de la République dans les conditions fixées par une loi organique.
-Le Conseil supérieur de la magistrature fait des propositions pour les nominations de magistrats du siège à la Cour de cassation et pour celles de Premier Président de cour d'appel. Il donne son avis dans les conditions fixées par la loi organique sur les propositions du Ministre de la Justice relatives aux nominations des autres magistrats du siège. Il est consulté sur les grâces dans les conditions fixées par une loi organique.
-Le Conseil supérieur de la magistrature statue comme conseil de discipline des magistrats du siège. Il est alors présidé par le Premier Président de la Cour de cassation.
+Le Conseil supérieur de la magistrature fait des propositions pour les nominations de magistrats du siège à la Cour de cassation et pour celles de premier président de cour d'appel. Il donne son avis dans les conditions fixées par la loi organique sur les propositions du ministre de la Justice relatives aux nominations des autres magistrats du siège. Il est consulté sur les grâces dans les conditions fixées par une loi organique.
+Le Conseil supérieur de la magistrature statue comme conseil de discipline des magistrats du siège. Il est alors présidé par le premier président de la Cour de cassation.
 
 Article 66
 Nul ne peut être arbitrairement détenu.
@@ -354,33 +343,31 @@ La composition du Conseil économique et social et ses règles de fonctionnement
 Article 72
 Les collectivités territoriales de la République sont les communes, les départements, les territoires d'Outre-mer. Toute autre collectivité territoriale est créée par la loi.
 Ces collectivités s'administrent librement par des conseils élus et dans les conditions fixées par la loi.
-Dans les départements et les territoires, le délégué du Gouvernement à la charge des intérêts nationaux, du contrôle administratif et du respect des lois.
+Dans les départements et les territoires, le délégué du Gouvernement a la charge des intérêts nationaux, du contrôle administratif et du respect des lois.
 
 Article 73
 Le régime législatif et l'organisation administrative des départements d'Outre-mer peuvent faire l'objet de mesures d'adaptation nécessitées par leur situation particulière.
 
 Article 74
-Les territoires d'Outre-mer de la République ont une organisation particulière tenant compte de leurs intérêts propres dans l'ensemble des intérêts de la République. Cette organisation est définie et modifiée par la loi aprés consultation de l'assemblée territoriale intéressée.
+Les territoires d'Outre-mer de la République ont une organisation particulière tenant compte de leurs intérêts propres dans l'ensemble des intérêts de la République. Cette organisation est définie et modifiée par la loi après consultation de l'assemblée territoriale intéressée.
 
 Article 75
 Les citoyens de la République qui n'ont pas le statut civil de droit commun, seul visé à l'article 34, conservent leur statut personnel tant qu'ils n'y ont pas renoncé.
 
 Article 76
 Les territoires d'Outre-mer peuvent garder leur statut au sein de la République.
-S'ils en manifestent la volonté par délibération de leur assemblée territoriale prise dans le délai prévu au premier alinéa de
-l'article 91
-, ils deviennent soit départements d'Outre-Mer de la République, soit, groupés ou non entre eux, Etats membres de la Communauté.
+S'ils en manifestent la volonté par délibération de leur assemblée territoriale prise dans le délai prévu au premier alinéa de l'article 91, ils deviennent soit départements d'Outre-mer de la République, soit, groupés ou non entre eux, États membres de la Communauté.
 
 Article 77
-Dans la Communauté instituée par la présente Constitution, les Etats jouissent de l'autonomie ; ils s'administrent eux-mêmes et gèrent démocratiquement et librement leurs propres affaires.
+Dans la Communauté instituée par la présente Constitution, les États jouissent de l'autonomie ; ils s'administrent eux-mêmes et gèrent démocratiquement et librement leurs propres affaires.
 Il n'existe qu'une citoyenneté de la Communauté.
 Tous les citoyens sont égaux en droit, quelles que soient leur origine, leur race et leur religion. Ils ont les mêmes devoirs.
 
 Article 78
-Le domaine de la compétence de la Communauté comprend la politique étrangère, la défense, la monnaie, la politique économique et financière commune ainsi que la politique des matières premières stratégiques. Il comprend en outre, sauf accord particulier, le contrôle de la justice, l'enseignement supérieur, l'organisation générale des transports extérieurs et communs et des télécommunications. Des accords particuliers peuvent créer d'autres compétences communes ou régler tout transfert de compétence de la Communauté à l'un de ses membres.
+Le domaine de la compétence de la Communauté comprend la politique étrangère, la défense, la monnaie, la politique économique et financière commune ainsi que la politique des matières premières stratégiques. Il comprend en outre, sauf accord particulier, le contrôle de la justice, l'enseignement supérieur, l'organisation générale des transports extérieurs et communs et des télécommunications.
 
 Article 79
-Les Etats membres bénéficient des dispositions de l'article 77 dès qu'ils ont exercé le choix prévu à l'article 76.
+Les États membres bénéficient des dispositions de l'article 77 dès qu'ils ont exercé le choix prévu à l'article 76.
 Jusqu'à l'entrée en vigueur des mesures nécessaires à l'application du présent titre, les questions de compétence commune sont réglées par la République.
 
 Article 80
@@ -388,20 +375,17 @@ Le Président de la République préside et représente la Communauté.
 Celle-ci a pour organes un conseil exécutif, un sénat et une cour arbitrale.
 
 Article 81
-Les Etats membres de la Communauté participent à l'élection du président dans les conditions prévues à l'article 6.
-Le Président de la République, en sa qualité de Président de la Communauté, est représenté dans chaque Etat de la Communauté.
+Les États membres de la Communauté participent à l'élection du président dans les conditions prévues à l'article 6.
+Le Président de la République, en sa qualité de Président de la Communauté, est représenté dans chaque État de la Communauté.
 
 Article 82
-Le conseil exécutif de la Communauté est présidé par le Président de la Communauté. Il est constitué par le Premier Ministre de la République, les chefs du gouvernement de chacun des Etats membres de la Communauté et par les ministres chargés, pour la Communauté, des affaires communes.
-Le conseil exécutif organise la coopération des membres de la Communauté sur le plan gouvernemental et administratif.
+Le conseil exécutif de la Communauté est présidé par le Président de la Communauté. Il est constitué par le Premier ministre de la République, les chefs du gouvernement de chacun des États membres de la Communauté et par les ministres chargés, pour la Communauté, des affaires communes.
 L'organisation et le fonctionnement du conseil exécutif sont fixés par une loi organique.
 
 Article 83
-Le Sénat de la Communauté est composé de délégués que le Parlement de la République et les assemblées législatives des autres membres de la Communauté choisissent en leur sein. Le nombre de délégués de chaque Etat tient compte de sa population et des responsabilités qu'il assume dans la Communauté.
+Le Sénat de la Communauté est composé de délégués que le Parlement de la République et les assemblées législatives des autres membres de la Communauté choisissent en leur sein. Le nombre de délégués de chaque État tient compte de sa population et des responsabilités qu'il assume dans la Communauté.
 Il tient deux sessions annuelles qui sont ouvertes et closes par le président de la Communauté et ne peuvent excéder chacune un mois.
 Saisi par le président de la Communauté, il délibère sur la politique économique et financière commune avant le vote des lois prises en la matière par le Parlement de la République et, le cas échéant, par les assemblées législatives des autres membres de la Communauté.
-Le Sénat de la Communauté examine les actes et les traités ou accords internationaux visés aux articles 35 et 53 et qui engagent la Communauté.
-Il prend des décisions exécutoires dans les domaines où il a reçu délégation des assemblées législatives des membres de la Communauté. Ces décisions sont promulguées dans la même forme que la loi sur le territoire de chacun des Etats intéressés.
 Une loi organique arrête sa composition et fixe ses règles de fonctionnement.
 
 Article 84
@@ -412,14 +396,14 @@ Article 85
 Par dérogation à la procédure prévue à l'article 89, les dispositions du présent titre qui concernent le fonctionnement des institutions communes sont révisées par des lois votées dans les mêmes termes par le Parlement de la République et par le Sénat de la Communauté.
 
 Article 86
-La transformation du statut d'un Etat membre de la Communauté peut être demandée soit par la République, soit par une résolution de l'assemblée législative de l'Etat intéressé confirmée par un référendum local dont l'organisation et le contrôle sont assurés par les institutions de la Communauté. Les modalités de cette transformation sont déterminées par un accord approuvé par le Parlement de la République et l'assemblée législative intéressée.
-Dans les mêmes conditions, un Etat membre de la Communauté peut devenir indépendant. Il cesse de ce fait d'appartenir à la Communauté.
+La transformation du statut d'un État membre de la Communauté peut être demandée soit par la République, soit par une résolution de l'assemblée législative de l'État intéressé confirmée par un référendum local dont l'organisation et le contrôle sont assurés par les institutions de la Communauté. Les modalités de cette transformation sont déterminées par un accord approuvé par le Parlement de la République et l'assemblée législative intéressée.
+Dans les mêmes conditions, un État membre de la Communauté peut devenir indépendant. Il cesse de ce fait d'appartenir à la Communauté.
 
 Article 87
 Les accords particuliers conclus pour l'application du présent titre sont approuvés par le Parlement de la République et l'assemblée législative intéressée.
 
 Article 88
-La République ou la Communauté peut conclure des accords avec des Etats qui désirent s'associer à elle pour développer leurs civilisations.
+La République ou la Communauté peut conclure des accords avec des États qui désirent s'associer à elle pour développer leurs civilisations.
 
 Article 89
 L'initiative de la révision de la Constitution appartient concurremment au Président de la République sur proposition du Premier ministre et aux membres du Parlement.
@@ -429,22 +413,22 @@ Aucune procédure de révision ne peut être engagée ou poursuivie lorsqu'il es
 La forme républicaine du Gouvernement ne peut faire l'objet d'une révision.
 
 Article 90
-La session ordinaire du Parlement est suspendue. Le mandat des membres de l’Assemblée Nationale en fonction viendra à expiration le jour de la réunion de l’Assemblée élue en vertu de la présente Constitution.
+La session ordinaire du Parlement est suspendue. Le mandat des membres de l’Assemblée nationale en fonction viendra à expiration le jour de la réunion de l’Assemblée élue en vertu de la présente Constitution.
 Le Gouvernement, jusqu’à cette réunion, a seul autorité pour convoquer le Parlement.
-Le mandat des membres de l’Assemblée de l’Union Française viendra à expiration en même temps que le mandat des membres de l’Assemblée Nationale actuellement en fonction.
+Le mandat des membres de l’Assemblée de l’Union française viendra à expiration en même temps que le mandat des membres de l’Assemblée nationale actuellement en fonction.
 
 Article 91
 Les institutions de la République prévues par la présente Constitution seront mises en place dans le délai de quatre mois à compter de sa promulgation.
 Ce délai est porté à six mois pour les institutions de la Communauté.
 Les pouvoirs du Président de la République en fonction ne viendront à expiration que lors de la proclamation des résultats de l’élection prévue par les articles 6 et 7 de la présente Constitution.
-Les Etats membres de la Communauté participeront à cette première élection dans les conditions découlant de leur statut à la date de la promulgation de la Constitution.
-Les autorités établies continueront d’exercer leurs fonctions dans ces Etats conformément aux lois et règlements applicables au moment de l’entrée en vigueur de la Constitution jusqu’à la mise en place des autorités prévues par leur nouveau régime.
-Jusqu’à sa constitution définitive, le Sénat est formé par les membres en fonction du Conseil de la République. Les lois organiques, qui régleront la constitution définitive du Sénat devront intervenir avant le 31 juillet 1959.
-Les attributions conférées au Conseil Constitutionnel par les articles 58 et 59 de la Consti­tution seront exercées, jusqu’à la mise en place de ce Conseil, par une Commission composée du vice-président du Conseil d’Etat, président, du Premier Président de la Cour de Cassation et du Premier Président de la Cour des Comptes.
-Les peuples des Etats membres de la Communauté continuent à être représentés au Parle­ment jusqu’à l’entrée en vigueur des mesures nécessaires à l’application du titre XII.
+Les États membres de la Communauté participeront à cette première élection dans les conditions découlant de leur statut à la date de la promulgation de la Constitution.
+Les autorités établies continueront d’exercer leurs fonctions dans ces États conformément aux lois et règlements applicables au moment de l’entrée en vigueur de la Constitution jusqu’à la mise en place des autorités prévues par leur nouveau régime.
+Jusqu’à sa constitution définitive, le Sénat est formé par les membres en fonction du Conseil de la République. Les lois organiques qui régleront la constitution définitive du Sénat devront intervenir avant le 31 juillet 1959.
+Les attributions conférées au Conseil constitutionnel par les articles 58 et 59 de la Constitution seront exercées, jusqu’à la mise en place de ce Conseil, par une Commission composée du vice-président du Conseil d’État, président, du Premier Président de la Cour de cassation et du Premier Président de la Cour des comptes.
+Les peuples des États membres de la Communauté continuent à être représentés au Parlement jusqu’à l’entrée en vigueur des mesures nécessaires à l’application du titre XII.
 
 Article 92
-Les mesures législatives nécessaires à la mise en place des institutions et, jusqu'à cette mise en place, au fonctionnement des pouvoirs publics seront prises en Conseil des ministres, après avis du Conseil d'Etat, par ordonnances ayant force de loi.
+Les mesures législatives nécessaires à la mise en place des institutions et, jusqu'à cette mise en place, au fonctionnement des pouvoirs publics seront prises en Conseil des ministres, après avis du Conseil d’État, par ordonnances ayant force de loi.
 Pendant le délai prévu à l'alinéa 1er de l'article 91, le Gouvernement est autorisé à fixer par ordonnances ayant force de loi et prises en la même forme le régime électoral des assemblées prévues par la Constitution.
 Pendant le même délai et dans les mêmes conditions, le Gouvernement pourra également prendre en toutes matières les mesures qu'il jugera nécessaires à la vie de la nation, à la protection des citoyens ou à la sauvegarde des libertés.
 La présente loi sera exécutée comme Constitution de la République et de la Communauté.

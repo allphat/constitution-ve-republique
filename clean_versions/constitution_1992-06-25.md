@@ -10,6 +10,7 @@ La Communauté est fondée sur l'égalité et la solidarité des peuples qui la 
 
 Article 2
 La France est une République indivisible, laïque, démocratique et sociale. Elle assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion. Elle respecte toutes les croyances.
+La langue de la République est le français.
 L'emblème national est le drapeau tricolore, bleu, blanc, rouge.
 L'hymne national est la "Marseillaise".
 La devise de la République est "Liberté, Egalité, Fraternité".
@@ -277,7 +278,7 @@ Ils ne prennent effet qu'après avoir été ratifiés ou approuvés.
 Nulle cession, nul échange, nulle adjonction de territoire n'est valable sans le consentement des populations intéressées.
 
 Article 54
-Si le Conseil Constitutionnel, saisi par le Président de la République, par le Premier Ministre ou par le Président de l'une ou l'autre assemblée, a déclaré qu'un engagement international comporte une clause contraire à la Constitution, l'autorisation de le ratifier ou de l'approuver ne peut intervenir qu'aprés la révision de la Constitution.
+Si le Conseil constitutionnel, saisi par le Président de la République, par le Premier ministre, par le président de l'une ou l'autre assemblée ou par soixante députés ou soixante sénateurs, a déclaré qu'un engagement international comporte une clause contraire à la Constitution, l'autorisation de ratifier ou d'approuver l'engagement international en cause ne peut intervenir qu'après la révision de la Constitution.
 
 Article 55
 Les traités ou accords régulièrement ratifiés ou approuvés ont, dès leur publication, une autorité supérieure à celle des lois, sous réserve, pour chaque accord ou traité, de son application par l'autre partie.
@@ -357,7 +358,9 @@ Article 73
 Le régime législatif et l'organisation administrative des départements d'Outre-mer peuvent faire l'objet de mesures d'adaptation nécessitées par leur situation particulière.
 
 Article 74
-Les territoires d'Outre-mer de la République ont une organisation particulière tenant compte de leurs intérêts propres dans l'ensemble des intérêts de la République. Cette organisation est définie et modifiée par la loi aprés consultation de l'assemblée territoriale intéressée.
+Les territoires d'Outre-mer de la République ont une organisation particulière tenant compte de leurs intérêts propres dans l'ensemble des intérêts de la République.
+Les statuts des territoires d'outre-mer sont fixés par des lois organiques qui définissent, notamment, les compétences de leurs institutions propres, et modifiés, dans la même forme, après consultation de l'assemblée territoriale intéressée.
+Les autres modalités de leur organisation particulière sont définies et modifiées par la loi après consultation de l'assemblée territoriale intéressée.
 
 Article 75
 Les citoyens de la République qui n'ont pas le statut civil de droit commun, seul visé à l'article 34, conservent leur statut personnel tant qu'ils n'y ont pas renoncé.
@@ -422,6 +425,19 @@ Les accords particuliers conclus pour l'application du présent titre sont appro
 Article 88
 La République ou la Communauté peut conclure des accords avec des Etats qui désirent s'associer à elle pour développer leurs civilisations.
 
+Article 88-1
+La République participe aux Communautés européennes et à l'Union européenne, constituées d'Etats qui ont choisi librement, en vertu des traités qui les ont instituées, d'exercer en commun certaines de leurs compétences.
+
+Article 88-2
+Sous réserve de réciprocité, et selon les modalités prévues par le Traité sur l'Union européenne signé le 7 février 1992, la France consent aux transferts de compétences nécessaires à l'établissement de l'union économique et monétaire européenne ainsi qu'à la détermination des règles relatives au franchissement des frontières extérieures des Etats membres de la Communauté européenne.
+
+Article 88-3
+Sous réserve de réciprocité et selon les modalités prévues par le Traité sur l'Union européenne signé le 7 février 1992, le droit de vote et d'éligibilité aux élections municipales peut être accordé aux seuls citoyens de l'Union résidant en France. Ces citoyens ne peuvent exercer les fonctions de maire ou d'adjoint ni participer à la désignation des électeurs sénatoriaux et à l'élection des sénateurs. Une loi organique votée dans les mêmes termes par les deux assemblées détermine les conditions d'application du présent article.
+
+Article 88-4
+Le Gouvernement soumet à l'Assemblée nationale et au Sénat, dès leur transmission au Conseil des Communautés, les propositions d'actes communautaires comportant des dispositions de nature législative.
+Pendant les sessions ou en dehors d'elles, des résolutions peuvent être votées dans le cadre du présent article, selon des modalités déterminées par le règlement de chaque assemblée.
+
 Article 89
 L'initiative de la révision de la Constitution appartient concurremment au Président de la République sur proposition du Premier ministre et aux membres du Parlement.
 Le projet ou la proposition de révision doit être voté par les deux assemblées en termes identiques. La révision est définitive après avoir été approuvée par référendum.
@@ -430,22 +446,22 @@ Aucune procédure de révision ne peut être engagée ou poursuivie lorsqu'il es
 La forme républicaine du Gouvernement ne peut faire l'objet d'une révision.
 
 Article 90
-La session ordinaire du Parlement est suspendue. Le mandat des membres de l’Assemblée Nationale en fonction viendra à expiration le jour de la réunion de l’Assemblée élue en vertu de la présente Constitution.
-Le Gouvernement, jusqu’à cette réunion, a seul autorité pour convoquer le Parlement.
-Le mandat des membres de l’Assemblée de l’Union Française viendra à expiration en même temps que le mandat des membres de l’Assemblée Nationale actuellement en fonction.
+La session ordinaire du Parlement est suspendue. Le mandat des membres de l'Assemblée nationale en fonctions viendra à expiration le jour de la réunion de l'Assemblée élue en vertu de la présente Constitution.
+Le Gouvernement, jusqu'à cette réunion, a seul autorité pour convoquer le Parlement.
+Le mandat des membres de l'Assemblée de l'Union française viendra à expiration en même temps que le mandat des membres de l'Assemblée nationale actuellement en fonctions.
 
 Article 91
-Les institutions de la République prévues par la présente Constitution seront mises en place dans le délai de quatre mois à compter de sa promulgation.
+Les institutions de la République prévues par la présente Constitution seront en place dans le délai de quatre mois à compter de sa promulgation.
 Ce délai est porté à six mois pour les institutions de la Communauté.
-Les pouvoirs du Président de la République en fonction ne viendront à expiration que lors de la proclamation des résultats de l’élection prévue par les articles 6 et 7 de la présente Constitution.
+Les pouvoirs du Président de la République en fonctions ne viendront à expiration que lors de la proclamation des résultats de l'élection prévue par les articles 6 et 7 de la présente Constitution.
 Les Etats membres de la Communauté participeront à cette première élection dans les conditions découlant de leur statut à la date de la promulgation de la Constitution.
-Les autorités établies continueront d’exercer leurs fonctions dans ces Etats conformément aux lois et règlements applicables au moment de l’entrée en vigueur de la Constitution jusqu’à la mise en place des autorités prévues par leur nouveau régime.
-Jusqu’à sa constitution définitive, le Sénat est formé par les membres en fonction du Conseil de la République. Les lois organiques, qui régleront la constitution définitive du Sénat devront intervenir avant le 31 juillet 1959.
-Les attributions conférées au Conseil Constitutionnel par les articles 58 et 59 de la Consti­tution seront exercées, jusqu’à la mise en place de ce Conseil, par une Commission composée du vice-président du Conseil d’Etat, président, du Premier Président de la Cour de Cassation et du Premier Président de la Cour des Comptes.
-Les peuples des Etats membres de la Communauté continuent à être représentés au Parle­ment jusqu’à l’entrée en vigueur des mesures nécessaires à l’application du titre XII.
+Les autorités établies continueront d'exercer leurs fonctions dans ces Etats conformément aux lois et règlements applicables au moment de l'entrée en vigueur de la Constitution jusqu'à la mise en place des autorités prévues par leur nouveau régime.
+Jusqu'à sa constitution définitive, le Sénat est formé par les membres en fonctions du Conseil de la République. Les lois organiques qui régleront la constitution définitive du Sénat devront intervenir avant le 31 juillet 1959.
+Les attributions conférées au Conseil constitutionnel par les articles 58 et 59 de la Constitution seront exercées, jusqu'à la mise en place de ce Conseil, par une commission composée du vice-président du Conseil d'Etat, président, du Premier Président de la Cour de cassation et du Premier Président de la Cour des comptes.
+Les peuples des Etats membres de la Communauté continuent à être représentés au Parlement jusqu'à l'entrée en vigueur des mesures nécessaires à l'application du titre XII.
 
 Article 92
-Les mesures législatives nécessaires à la mise en place des institutions et, jusqu'à cette mise en place, au fonctionnement des pouvoirs publics seront prises en Conseil des ministres, après avis du Conseil d'Etat, par ordonnances ayant force de loi.
+Les mesures législatives nécessaires à la mise en place des institutions et, jusqu'à cette mise en place, au fonctionnement des pouvoirs publics seront prises en conseil des ministres, après avis du Conseil d'Etat, par ordonnance ayant force de loi.
 Pendant le délai prévu à l'alinéa 1er de l'article 91, le Gouvernement est autorisé à fixer par ordonnances ayant force de loi et prises en la même forme le régime électoral des assemblées prévues par la Constitution.
 Pendant le même délai et dans les mêmes conditions, le Gouvernement pourra également prendre en toutes matières les mesures qu'il jugera nécessaires à la vie de la nation, à la protection des citoyens ou à la sauvegarde des libertés.
 La présente loi sera exécutée comme Constitution de la République et de la Communauté.

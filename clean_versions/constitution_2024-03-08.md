@@ -209,6 +209,7 @@ La loi détermine les principes fondamentaux :
 -de la préservation de l'environnement ;
 -du régime de la propriété, des droits réels et des obligations civiles et commerciales ;
 -du droit du travail, du droit syndical et de la sécurité sociale.
+La loi détermine les conditions dans lesquelles s'exerce la liberté garantie à la femme d'avoir recours à une interruption volontaire de grossesse.
 Les lois de finances déterminent les ressources et les charges de l'Etat dans les conditions et sous les réserves prévues par une loi organique.
 Les lois de financement de la sécurité sociale déterminent les conditions générales de son équilibre financier et, compte tenu de leurs prévisions de recettes, fixent ses objectifs de dépenses, dans les conditions et sous les réserves prévues par une loi organique.
 Des lois de programmation déterminent les objectifs de l'action de l'État.

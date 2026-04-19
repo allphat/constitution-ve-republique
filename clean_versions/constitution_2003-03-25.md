@@ -442,6 +442,7 @@ La République participe aux Communautés européennes et à l'Union européenne
 Article 88-2
 Sous réserve de réciprocité, et selon les modalités prévues par le Traité sur l'Union européenne signé le 7 février 1992, la France consent aux transferts de compétences nécessaires à l'établissement de l'union économique et monétaire européenne.
 Sous la même réserve et selon les modalités prévues par le Traité instituant la Communauté européenne, dans sa rédaction résultant du traité signé le 2 octobre 1997, peuvent être consentis les transferts de compétences nécessaires à la détermination des règles relatives à la libre circulation des personnes et aux domaines qui lui sont liés.
+La loi fixe les règles relatives au mandat d'arrêt européen en application des actes pris sur le fondement du Traité sur l'Union européenne.
 
 Article 88-3
 Sous réserve de réciprocité et selon les modalités prévues par le Traité sur l'Union européenne signé le 7 février 1992, le droit de vote et d'éligibilité aux élections municipales peut être accordé aux seuls citoyens de l'Union résidant en France. Ces citoyens ne peuvent exercer les fonctions de maire ou d'adjoint ni participer à la désignation des électeurs sénatoriaux et à l'élection des sénateurs. Une loi organique votée dans les mêmes termes par les deux assemblées détermine les conditions d'application du présent article.
